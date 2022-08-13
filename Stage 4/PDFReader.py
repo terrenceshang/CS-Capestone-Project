@@ -1,7 +1,7 @@
 import PyPDF2
 import io
 
-pdfFileObj = open("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Area Central.pdf", "rb")
+pdfFileObj = open("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\PDFDoc\\Area Central.pdf", "rb")
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 
 #print(pdfReader.numPages) reading number of pages
