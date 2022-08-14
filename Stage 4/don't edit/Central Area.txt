@@ -1,7 +1,7 @@
 MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
-Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
-05:00,05:05,05:10,05:35,05:40,06:02,06:12,06:10,06:30
-16,17,19,20,16,17,20,16,16
+Cape Town,Cape Town,Cape Town,Cape Town,Mutual,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+05:00,05:05,05:10,05:35,06:00,05:40,06:02,06:12,06:10,06:30
+16,17,19,20,,16,17,20,16,16
 9501,9911,9003,9913,9005,9503,9915,9007,9505,9507
 MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
 Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
@@ -33,20 +33,20 @@ Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,
 15:32,15:40,15:45,15:50,15:52,15:55,16:00,16:07,16:15
 19,15,20,18,21,17,16,20,19
 9953,9547,9955,9037,9213,9357,9549,9403,9039
-MF,MF,MF,MF,MF,MF,MF,MF,MF
+MF,MTH,MF,MF,MF,MF,MF,MF,MTH
 Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
 16:15,16:20,16:20,16:30,16:33,16:40,16:40,16:45,16:50
 17,18,16,20,17,21,16,18,19
 9551,9959,9553,9961,9577,9405,9555,9041,9219
-MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
+MTH,MF,MF,MF,MF,MF,MF,MF,MF,MF
 Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
 16:55,17:00,17:05,17:23,17:10,17:15,17:20,17:20,17:30,17:28
 21,16,19,18,17,20,19,16,17,15
 9963,9557,9965,9221,9367,9995,9043,9559,9969,9561
-MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
-Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
-17:40,17:37,17:45,17:50,18:00,18:05,18:10,18:20,18:25
-19,16,17,18,15,20,16,21,19
+MTH,MF,MF,MF,MF,MF,MF,MF,MF,MF
+Cape Town,Cape Town,Cape Town,Cape Town,Mutual,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+17:40,17:37,17:45,17:50,18:10,18:00,18:05,18:10,18:20,18:25
+19,16,17,18,,15,20,16,21,19
 9987,9563,9371,9045,9989,9565,9973,9567,9975,9223
 MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
 Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town

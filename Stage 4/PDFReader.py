@@ -6,7 +6,8 @@ pdfFileObj = open("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 
 #Getting needed information from Area Central PDF to notepad
-for i in range (11):
+"""
+for i in range (11): #This loop is for Monday to Friday starting from Cape Town
 
     #Reading the PDF at page i
     pageObj = pdfReader.getPage(i)
@@ -26,18 +27,19 @@ for i in range (11):
             trainNumber = line[10:].split(" ")
         
         if (2<count<10) and (line[1:10]=="CAPE TOWN"):
-            departure = "Cape_Town"
+            departure = "Cape Town"
             departureTime = line[11:].split(" ")       
         list.append(line)
         count = count + 1
 
     #Write the important information to the Notepad
-    file.write((days+" ")*len(trainNumber)+ "\n")
-    file.write((departure+" ")*len(trainNumber) + "\n")
-    file.write(" ".join(str(x) for x in departureTime))
-    file.write(" ".join(str(x) for x in platformNumber))
-    file.write(" ".join(str(x) for x in trainNumber))
-    
-
+    output = (days+",")*(len(trainNumber)-1)
+    file.write(output[:-1]+ "\n")
+    output = (departure+",")*(len(trainNumber)-1)
+    file.write(output[:-1] + "\n")
+    file.write(",".join(str(x) for x in departureTime)[:-2]+"\n")
+    file.write(",".join(str(x) for x in platformNumber)[:-2]+"\n")
+    file.write(",".join(str(x) for x in trainNumber)[:-2]+"\n")
+"""
 pdfFileObj.close()
 file.close
