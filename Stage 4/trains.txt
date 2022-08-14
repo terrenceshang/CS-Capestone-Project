@@ -1,0 +1,55 @@
+MF MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+05:00 05:05 05:10 05:35 05:40 06:02 06:12 06:10 06:30 
+16 17 19 20 16 17 20 16 16 
+9501 9911 9003 9913 9005 9503 9915 9007 9505 9507 
+MF MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+06:40 06:45 06:52 07:07 07:10 07:22 07:30 07:43 07:52 08:00 
+20 18 16 20 18 17 19 18 16 21 
+9917 9011 9509 9919 9013 9511 9921 9015 9513 9923 
+MF MF MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+08:10 08:15 08:30 08:35 08:45 09:00 09:05 09:30 09:35 09:40 10:00 
+18 16 20 16 19 21 17 16 20 18 16 
+9017 9515 9925 9517 9019 9927 9519 9521 9929 9021 9523 
+MF MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+10:05 10:30 10:35 10:50 11:00 11:05 11:35 11:35 11:50 12:05 
+19 17 20 18 16 20 16 20 19 16 
+9931 9525 9933 9023 9527 9935 9529 9937 9025 9531 
+MF MF MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+12:10 12:35 12:40 12:55 13:10 13:10 13:40 13:40 13:55 14:10 14:15 
+20 16 20 19 20 16 21 16 19 20 16 
+9939 9533 9941 9027 9943 9535 9945 9537 9029 9947 9539 
+MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+14:22 14:35 14:40 14:50 15:00 15:05 15:18 15:24 15:25 
+18 20 16 18 16 20 17 18 16 
+9031 9949 9541 9033 9543 9951 9353 9035 9545 
+MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+15:32 15:40 15:45 15:50 15:52 15:55 16:00 16:07 16:15 
+19 15 20 18 21 17 16 20 19 
+9953 9547 9955 9037 9213 9357 9549 9403 9039 
+MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+16:15 16:20 16:20 16:30 16:33 16:40 16:40 16:45 16:50 
+17 18 16 20 17 21 16 18 19 
+9551 9959 9553 9961 9577 9405 9555 9041 9219 
+MF MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+16:55 17:00 17:05 17:23 17:10 17:15 17:20 17:20 17:30 17:28 
+21 16 19 18 17 20 19 16 17 15 
+9963 9557 9965 9221 9367 9995 9043 9559 9969 9561 
+MF MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+17:40 17:37 17:45 17:50 18:00 18:05 18:10 18:20 18:25 
+19 16 17 18 15 20 16 21 19 
+9987 9563 9371 9045 9989 9565 9973 9567 9975 9223 
+MF MF MF MF MF MF MF MF MF MF MF 
+Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town Cape_Town 
+18:30 18:35 18:34 19:05 19:00 19:10 19:38 19:40 20:25 20:18 
+18 17 20 21 16 19 20 16 19 16 
+9047 9569 9977 9979 9571 9049 9981 9573 9983 9575 
