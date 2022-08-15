@@ -29,9 +29,8 @@ output = ", " * len(line)
 print(output[1:])
 """
 
-"""
+
 while (line != "done"): #This is a shortcut program that I use to format all my inputs into the time format that I wanted
     output = output + "," + line[:2] + ":" + line[2:]
     line = input("")
 print (output[1:])
-"""
