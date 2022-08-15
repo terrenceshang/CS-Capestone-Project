@@ -158,6 +158,7 @@ for i in range (36,41): #This loop is for Saturday starting from Cape Town
     file.write(",".join(str(x) for x in trainNumber)[:-2]+"\n")
 """
 
+"""
 for i in range (41,46): #This loop is for Monday to Friday ending at Cape Town
     
     #Reading the PDF at page i
@@ -177,7 +178,7 @@ for i in range (41,46): #This loop is for Monday to Friday ending at Cape Town
     output = ("SUN"+",")*(len(trainNumber)-1)
     file.write(output[:-1]+ "\n")
     file.write(",".join(str(x) for x in trainNumber)[:-2]+"\n")
-
+"""
 
 pdfFileObj.close()
 file.close

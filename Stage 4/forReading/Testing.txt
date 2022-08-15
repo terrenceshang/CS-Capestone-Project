@@ -1,0 +1,6 @@
+MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
+Cape Town,Cape Town,Cape Town,Cape Town,Mutual,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Kapteinsklip,Chris Hani,Bellville,Chris Hani,Bellville,Kapteinsklip,Chris Hani,Bellville,Kapteinsklip,Kapteinsklip
+05:00,05:05,05:10,05:35,06:00,05:40,06:02,06:12,06:10,06:30
+16,17,19,20,,16,17,20,16,16
+9501,9911,9003,9913,9005,9503,9915,9007,9505,9507
