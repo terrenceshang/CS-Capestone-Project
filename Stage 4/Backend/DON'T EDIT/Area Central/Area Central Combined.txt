@@ -30,13 +30,13 @@ Chris Hani,Kapteinsklip,Chris Hani,Bellville,Chris Hani,Kapteinsklip,Chris Hani,
 9939,9533,9941,9027,9943,9535,9945,9537,9029,9947,9539
 MF,MF,MF,MF,MF,MF,MF,MF,MF
 Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
-Chris Hani,Kapteinsklip,Chris Hani,Bellville,Chris Hani,Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Chris Hani,Kapteinsklip
+Bellville,Chris Hani,Kapteinsklip,Bellville,Kapteinsklip,Chris Hani,Chris Hani,Bellville,Kapteinsklip
 14:22,14:35,14:40,14:50,15:00,15:05,15:18,15:24,15:25
 18,20,16,18,16,20,17,18,16
 9031,9949,9541,9033,9543,9951,9353,9035,9545
 MF,MF,MF,MF,MF,MF,MF,MF,MF
 Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
-Chris Hani,Kapteinsklip,Chris Hani,Bellville,Chris Hani,Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Chris Hani,Khayelitsha,Kapteinsklip
+Chris Hani,Kapteinsklip,Chris Hani,Bellville,Kapteinsklip,Chris Hani,Kapteinsklip,Khayelitsha,Bellville
 15:32,15:40,15:45,15:50,15:52,15:55,16:00,16:07,16:15
 19,15,20,18,21,17,16,20,19
 9953,9547,9955,9037,9213,9357,9549,9403,9039
@@ -208,7 +208,7 @@ Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,
 14:20,14:10,14:40,15:05,15:10,15:35,15:45,15:50,16:08,16:35
  , , , , , , , , , 
 9542,9948,9950,9544,9952,9546,9022,9954,9548,9550
-SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
 Chris Hani,Bellville,Kapteinsklip,Chris Hani,Kapteinsklip,Chris Hani,Bellville,Chris Hani,Kapteinsklip,Chris Hani
 Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
 16:30,16:50,17:20,17:10,18:00,17:50,18:42,18:40,19:10,19:22
