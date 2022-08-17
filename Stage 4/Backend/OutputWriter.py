@@ -1,5 +1,3 @@
-line = input("")
-output = ""
 
 """
 for i in range(len(line)): #This is a shortcut program that I use to make the list of departure stations in the format that I wanted
@@ -29,12 +27,12 @@ output = ", " * len(line)
 print(output[1:])
 """
 
-
+"""
 while (line != "done"): #This is a shortcut program that I use to format all my inputs into the time format that I wanted
     output = output + "," + line[:2] + ":" + line[2:]
     line = input("")
 print (output[1:])
-
+"""
 
 """
 for i in range(len(line)): #This is a shortcut program that I use to make the list of departure stations in the format that I wanted
@@ -91,3 +89,14 @@ print(output[1:])
 output = ", " * len(line)
 print(output[1:])
 """
+
+line = input("")
+line2 = input("")
+line3 = input("")
+line4 = input("")
+print(("SUN," * int(line))[:-1])
+print(("Bellville," * int(line))[:-1])
+print(("Cape Town," * int(line))[:-1])
+print(line2.replace(" ", ","))
+print(line3.replace(" ", ","))
+print(line4.replace(" ", ","))

@@ -38,6 +38,7 @@ for line in file:
 
 file.close()
 cursor.close()
+
 """
 cursor.execute('select * from AreaCentral')
 
