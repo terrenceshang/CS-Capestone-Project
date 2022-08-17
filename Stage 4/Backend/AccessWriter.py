@@ -2,7 +2,7 @@ from turtle import tracer
 import pyodbc
 
 conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\Stage 4\\TrainSchedule.accdb;')
-file = open("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\forReading\\Area Central Combined.txt", "r")
+file = open("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\forReading\\Area South\\Area South Combined.txt", "r")
 cursor = conn.cursor()
 count = 0
 
@@ -23,7 +23,11 @@ for line in file:
         for i in range (len(trainNumberList)):
             a,b,c = workingTimeList[i], departureLocationList[i], arrivalLocationList[i]
             d,e,f = timeOfDepartureList[i], CTPlatformNumberList[i], trainNumberList[i]
-            sql = "INSERT INTO AreaCentral VALUES ('"+a+"','"+b+"','"+c+"','"+d+"','"+e+"',"+f+")"
+            if c == "Simon's Town":
+                c = "Simon''s Town"
+            if b == "Simon's Town":
+                b = "Simon''s Town"
+            sql = "INSERT INTO AreaSouth VALUES ('"+a+"','"+b+"','"+c+"','"+d+"','"+e+"','"+f+"')"
             print(sql)
             cursor.execute(sql)
             cursor.commit()
