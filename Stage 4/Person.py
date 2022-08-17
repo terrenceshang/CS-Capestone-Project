@@ -6,7 +6,13 @@ class Person:
         self.email = email
         self.password = password
 
-
-
-
-
+    def getName():
+        return self.name
+    def getUsername():
+        return self.username
+    def getSurname():
+        return self.surname
+    def getEmail():
+        return self.email
+    def getPassword():
+        return self.password
