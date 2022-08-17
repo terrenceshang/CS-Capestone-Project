@@ -1,0 +1,51 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<h1 align="center">Shortest Path Calculation</h1>
+<ul class="list-group list-group-flush" id="notes">
+  {% for note in user.notes %}
+  <li class="list-group-item">
+    {{ note.data }}
+    <button type="button" class="close" onClick="deleteNote({{ note.id }})">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </li>
+  {% endfor %}
+</ul>
+<div class="form-group">
+  <label for="departureStation">Departure Station</label>
+  <input
+    type="departureStation"
+    class="form-control"
+    id="departureStation"
+    name="departureStation"
+    placeholder="Enter station"
+  />
+</div>
+<div class="form-group">
+  <label for="destinationStation">Destination Station</label>
+  <input
+    type="destinationStation"
+    class="form-control"
+    id="destinationStation"
+    name="destinationStation"
+    placeholder="Enter station"
+  />
+</div>
+<div class="form-group">
+  <label for="departureTime">Departure Time</label>
+  <input
+    type="departureTime"
+    class="form-control"
+    id="departureTime"
+    name="departureTime"
+    placeholder="Enter Time"
+  />
+</div>
+<form method="POST">
+  <textarea name="note" id="note" class="form-control"></textarea>
+  <br />
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Calculate</button>
+  </div>
+</form>
+{% endblock %}
