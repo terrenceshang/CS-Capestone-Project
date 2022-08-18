@@ -3,5 +3,5 @@ class User(Person):
         super.__innit__(username, name, surname, email, password)
         self.history = history
 
-    def getHistory():
+    def getHistory(self):
         return self.history
