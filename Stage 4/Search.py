@@ -5,7 +5,7 @@ class Search:
         self.startTime = startTime
         self.endTime = endTime
 
-    def findRoutes():
+    def findRoutes(self):
         station = Stations()
         if station.findStation(self.destStation) = False:
             return "Could not find Station"
