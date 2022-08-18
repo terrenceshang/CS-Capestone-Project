@@ -12,8 +12,8 @@ class Route:
           self.time = startTime
           self.start = True
 
-  def findRoutes(self):
-      #use map to find routes
+  def getRoutes(self):
+      #use map to find routes and save into arrRoutes
       sortedTimes = TimeSort(arrRoutes, self.time)
       if start == True:
           routeOrder = sortedTimes.orderShortestStart()
@@ -21,7 +21,6 @@ class Route:
           routeOrder = sortedTimes.orderShortestEnd()
 
       return routeOrder
-    
 
 
   
