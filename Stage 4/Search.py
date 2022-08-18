@@ -13,10 +13,7 @@ class Search:
             return "Could not find Station"
 
         route = Routes(self.deptStation, self.destStation, self.startTime, self.endTime)
-        route.findRoutes()
-
-
-
-
+        route.getRoutes()
+        return route
 
 
