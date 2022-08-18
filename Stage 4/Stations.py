@@ -3,9 +3,9 @@ class Stations:
     #load Stations into array from Files
     self.arrStations = [amount of Stations]
 
-    def findStation(stationName):
-        for i in arrStations:
-            if arrStations[i] == stationName:
+    def findStation(self, stationName):
+        for i in self.arrStations:
+            if self.arrStations[i] == stationName:
                 return True
         return False
 
