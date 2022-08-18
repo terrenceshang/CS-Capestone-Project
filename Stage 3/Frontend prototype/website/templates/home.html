@@ -5,9 +5,6 @@
   {% for note in user.notes %}
   <li class="list-group-item">
     {{ note.data }}
-    <button type="button" class="close" onClick="deleteNote({{ note.id }})">
-      <span aria-hidden="true">&times;</span>
-    </button>
   </li>
   {% endfor %}
 </ul>
@@ -41,11 +38,8 @@
     placeholder="Enter Time"
   />
 </div>
-<form method="POST">
-  <textarea name="note" id="note" class="form-control"></textarea>
-  <br />
-  <div align="center">
-    <button type="submit" class="btn btn-primary">Calculate</button>
-  </div>
-</form>
+<div align="center">
+  <button type="submit" class="btn btn-primary">Calculate</button>
+</div>
+
 {% endblock %}

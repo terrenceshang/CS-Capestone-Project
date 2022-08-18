@@ -1,0 +1,42 @@
+MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
+Retreat,Retreat,Heathfield,Heathfield,Heathfield,Heathfield,Heathfield,Heathfield,Heathfield,Heathfield
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+04:57,05:31,05:50,06:07,06:23,06:38,06:51,07:08,07:23,07:42
+ , , , , , , , , , 
+0500,0502,0504,0506,0508,0510,0512,0514,0516,0518
+MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
+Heathfield,Heathfield,Heathfield,Heathfield,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+07:57,08:12,08:30,08:50,09:21,09:54,10:38,11:30,12:20,13:20
+ , , , , , , , , , 
+0520,0522,0524,0526,0528,0530,0532,0534,0536,0538
+MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
+Retreat,Retreat,Retreat,Retreat,Heathfield,Heathfield,Heathfield,Heathfield,Heathfield,Heathfield
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+14:00,14:25,14:56,15:20,15:44,15:56,16:20,16:38,16:58,17:08 
+ , , , , , , , , , 
+0540,0542,0544,0546,0548,0550,0552,0554,0556,0558
+MF,MF,MF,MF,MF,MF,MF,MF,MF
+Heathfield,Heathfield,Retreat,Heathfield,Heathfield,Heathfield,Heathfield,Heathfield,Retreat
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town     
+17:21,17:37,17:48,18:00,18:13,18:28,18:41,19:06,19:48
+ , , , , , , , , 
+0560,0562,0564,0566,0568,0570,0572,0574,0576
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+05:02,06:07,06:25,06:59,07:35,08:10,08:45,09:35,10:25,11:15
+ , , , , , , , , , 
+0500,0502,0504,0506,0508,0510,0512,0514,0516,0518
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+12:08,12:54,13:45,14:37,15:13,16:20,17:00,17:55
+ , , , , , , , 
+0520,0522,0526,0528,0530,0534,0536,0538
+SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB
+Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+05:00,06:00,07:18,08:19,09:40,11:18,13:05,14:17,15:30,17:00,18:20
+ , , , , , , , , , 
+0502,0504,0506,0508,0510,0512,0514,0516,0518,0520,0522

@@ -1,0 +1,30 @@
+SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN
+Cape Town,Cape Town,Cape Town,Mutual,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Chris Hani,Kapteinsklip,Chris Hani,Bellville,Chris Hani,Kapteinsklip,Chris Hani,Bellville,Kapteinsklip
+05:25,05:50,06:05,06:28,06:45,06:50,07:25,07:45,07:50
+19,16,20,,20,17,20,18,16
+9911,9501,9913,9001,9915,9503,9917,9003,9505
+SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Chris Hani,Kapteinsklip,Bellville,Chris Hani,Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Chris Hani,Kapteinsklip
+08:25,08:50,09:07,09:25,09:45,10:25,10:45,11:10,11:25,11:35
+20,17,18,19,16,20,17,18,20,16
+9919,9507,9005,9921,9509,9923,9511,9007,9925,9513
+SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Chris Hani,Kapteinsklip,Bellville,Chris Hani,Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Chris Hani,Chris Hani
+12:25,12:35,13:05,13:25,13:35,14:25,14:35,14:50,15:00,15:25
+20,16,19,20,16,20,17,18,21,20
+9927,9515,9009,9929,9517,9931,9519,9011,9933,9935
+SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Chris Hani,Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Kapteinsklip
+15:35,16:15,16:30,16:50,17:05,17:10,17:55,18:00,18:30,18:45
+16,20,17,18,21,16,20,16,19,16
+9521,9937,9523,9013,9939,9525,9941,9527,9015,9529
+SUN,SUN,SUN
+Cape Town,Cape Town,Cape Town
+Chris Hani,Kapteinsklip,Chris Hani
+18:50,19:55,19:58
+21,15,20
+9943,9531,9945

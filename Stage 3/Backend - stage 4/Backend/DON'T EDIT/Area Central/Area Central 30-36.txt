@@ -1,0 +1,42 @@
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Chris Hani,Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Chris Hani,Kapteinsklip,Chris Hani,Bellville,Kapteinsklip
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+04:40,04:57,05:05,05:25,05:30,05:30,05:50,05:50,06:13,06:15
+ , , , , , , , , , 
+9912,9502,9914,9504,9002,9916,9506,9304,9004,9508
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Chris Hani,Kapteinsklip,Chris Hani,Bellville,Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Chris Hani,Kapteinsklip
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+06:10,06:40,06:35,06:55,07:00,07:00,07:25,07:40,07:25,07:50
+ , , , , , , , , , 
+9918,9510,9920,9006,9512,9922,9514,9008,9924,9516
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Chris Hani,Bellville,Kapteinsklip,Chris Hani,Kapteinsklip,Chris Hani,Bellville,Kapteinsklip,Chris Hani,Kapteinsklip
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+07:50,08:15,08:20,08:20,08:45,08:45,09:05,09:10,09:10,09:40
+ , , , , , , , , , 
+9926,9010,9518,9928,9520,9308,9012,9522,9930,9524
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Chris Hani,Bellville,Kapteinsklip,Chris Hani,Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Chris Hani,Kapteinsklip
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+09:40,10:02,10:10,10:10,10:40,10:45,11:10,11:30,11:20,11:45
+ , , , , , , , , , 
+9932,9014,9526,9934,9528,9936,9530,9016,9938,9532
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Chris Hani,Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Kapteinsklip,Chris Hani,Kapteinsklip,Chris Hani,Bellville
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+11:55,12:20,12:35,12:50,13:00,13:20,13:10,13:50,13:40,14:13
+ , , , , , , , , , 
+9940,9534,9942,9536,9018,9538,9944,9540,9946,9020
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Kapteinsklip,Chris Hani,Chris Hani,Kapteinsklip,Chris Hani,Kapteinsklip,Bellville,Chris Hani,Kapteinsklip,Kapteinsklip
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+14:20,14:10,14:40,15:05,15:10,15:35,15:45,15:50,16:08,16:35
+ , , , , , , , , , 
+9542,9948,9950,9544,9952,9546,9022,9954,9548,9550
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Chris Hani,Bellville,Kapteinsklip,Chris Hani,Kapteinsklip,Chris Hani,Bellville,Chris Hani,Kapteinsklip,Chris Hani
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+16:30,16:50,17:20,17:10,18:00,17:50,18:42,18:40,19:10,19:22
+ , , , , , , , , , 
+9956,9024,9552,9958,9554,9960,9026,9962,9556,9964
