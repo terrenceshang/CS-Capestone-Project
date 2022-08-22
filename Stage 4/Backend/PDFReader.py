@@ -200,8 +200,8 @@ for i in range (26,): #This loop is to find the information that I need for the 
     file.write(",".join(str(x) for x in trainNumber)[:-2]+"\n")
 """
 
-"""
-for i in range (13,26): #This loop is to find the information that I need for the destination being Cape Town in the Area Central PDF
+
+for i in range (23,27): #This loop is to find the information that I need for the destination being Cape Town in the Area Central PDF
     
     #Reading the PDF at page i
     pageObj = pdfReader.getPage(i)
@@ -229,7 +229,8 @@ for i in range (13,26): #This loop is to find the information that I need for th
     output = (days+",")*(len(trainNumber)-1)
     file.write(output[:-1]+ "\n")
     file.write(",".join(str(x) for x in trainNumber)[:-2]+"\n")
-"""
+
+
 """
 for i in range (26,33): #This loop is to find the information that I need for the departure being Cape Town
 
@@ -345,7 +346,7 @@ for i in range (29,31): #This loop is to find the information that I need for th
     file.write(",".join(str(x) for x in CTplatformNumber)[:-1]+"\n")
     file.write(",".join(str(x) for x in trainNumber)[:-2]+"\n")
 """
-
+"""
 for i in range (31,37): #This loop is to find the information that I need for the departure being Cape Town
 
     #Reading the PDF at page i
@@ -385,5 +386,7 @@ for i in range (31,37): #This loop is to find the information that I need for th
     file.write(",".join(str(x) for x in CTplatformNumber)[:-1]+"\n")
     file.write(",".join(str(x) for x in BelplatformNumber)[:-1]+"\n")
     file.write(",".join(str(x) for x in trainNumber)[:-2]+"\n")
+"""
+
 pdfFileObj.close()
 file.close

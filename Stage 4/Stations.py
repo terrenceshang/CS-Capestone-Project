@@ -1,5 +1,5 @@
 class Stations:
-    def __innit__ (self):
+    def __innit__ (self): #Station contructor
     #load Stations into array from Files
     self.arrStations = [amount of Stations]
 

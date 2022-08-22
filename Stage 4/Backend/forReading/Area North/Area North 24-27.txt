@@ -1,0 +1,24 @@
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Kraaifontein,Strand,Wellington,Kraaifontein,Muldersvlei,Strand,Wellington,Bellville D,Kraaifontein,Muldersvlei,Strand,Wellington,Bellville D,Strand
+Cape Town,Bellville A,Cape Town,Cape Town,Cape Town,Bellville A,Cape Town,Cape Town,Cape Town,Cape Town,Bellville A,Cape Town,Cape Town,Cape Town
+ , , , , , , , , , , , , , , 
+2,3,9,9,11,3,9,2,9,11,3,9,2,11
+2502,3200,3500,2504,3400,3202,3502,2802,2508,3402,3204,3504,2804,3206
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Kraaifontein,Wellington,Bellville D,Muldersvlei,Wellington,Strand,Kraaifontein,Muldersvlei,Wellington,Strand,Muldersvlei,Wellington,Strand,Bellville D
+Malmesbury,Cape Town,Cape Town,Cape Town,Worcester,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+ , , , , , , , , , , , , , , 
+2,9,2,11,2,11,9,11,9,11,11,9,11,2
+2632,3506,2806,3404,3508,3208,2510,3406,3510,3210,3408,3512,3212,2812
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Wellington,Strand,Muldersvlei,Wellington,Strand,Muldersvlei,Wellington,Strand,Muldersvlei,Wellington,Strand,Muldersvlei
+Cape Town,Cape Town,Cape Town,Cape Town,Bellville A,Cape Town,Cape Town,Bellville A,Cape Town,Cape Town,Cape Town,Cape Town
+ , , , , , , , , , , , , 
+9,11,11,9, ,11,9,3,11,9,11
+3514,3214,3412,3516,3216,3414,3518,3218,3416,3520,3220,3418
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Wellington,Strand,Muldersvlei,Wellington,Muldersvlei,Strand,Wellington,Strand,Wellington,Muldersvlei,Strand,Wellington,Eerste River,Muldersvlei
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Bellville A,Cape Town,Cape Town,Bellville A,Cape Town,Bellville A,Bellville A
+ , , , , , , , , , , , , , , 
+9,11,11,9,11,11,9, ,9,11,11,9,11,3
+3522,3222,3420,3526,3422,3226,3528,3228,3530,3424,3230,3532,2312,3426

@@ -1,0 +1,18 @@
+MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville
+04:30,05:34,05:55,06:05,06:56,07:15,07:51,09:08,09:35,10:10,10:30,11:00,11:33,13:20,13:52,14:28,14:50,15:10,15:50,16:10,16:30,16:52,17:20,17:55,18:30
+21,21,22,23,22,22,22,22,21,22,22,21,22,22,22,22,21,22,22,22,22,20,22,23,23
+2801,2805,2807,2857,2809,2811,2813,2817,2859,2853,2821,2861,2855,2863,2829,2831,2851,2833,2835,2837,2839,2867,2841,2845,2869
+SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville
+05:20,06:07,06:50,07:36,08:10,09:12,10:08,10:57,11:57,12:40,13:21,15:00,16:30,17:50,18:50
+21,23,22,22,23,22,22,22,22,22,22,22,21,22,21
+2801,2803,2805,2807,2809,2811,2813,2815,2817,2819,2821,2831,2833,2835,2837
+SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville
+07:00,09:00,11:00,13:00,15:00,17:00,18:00,19:25
+21,22,22,22,22,22,21,21
+2801,2803,2805,2807,2809,2811,2817,2819

@@ -1,23 +1,27 @@
 SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
 Bellville D,Bellville D,Cape Town,Cape Town,Bellville D,Bellville D,Cape Town,Bellville D,Cape Town
+Muldersvlei,Strand,Wellington,Kraaifontein,Muldersvlei,Strand,Wellington,Strand,Muldersvlei
 04:30,04:51,04:34,04:57,05:18,05:38,05:25,06:10,05:42
  , ,10,11, , ,9, ,11
 11,3,4,4,3,3,4,3,4
 3401,3201,3501,2503,3403,3203,3503,3205,3405
 SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
 Cape Town,Bellville D,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Wellington,Strand,Muldersvlei,Kraaifontein,Strand,Wellington,Muldersvlei,Strand,Wellington,Muldersvlei,Strand,Wellington,Muldersvlei,Strand 
 06:12,06:51,06:23,06:36,07:09,07:24,07:46,08:00,08:16,08:44,09:12,09:20,09:41,09:55
 10, ,9,8,9,10,8,10,8,11,11,8,10,10
 4,3,4,4,4,4,4,4,4,4,4,4,4,4
 3505,3207,3407,2505,3209,3507,3411,3211,3509,3413,3213,3511,3415,3215
 SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
 Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Bellville D,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Wellington,Muldersvlei,Strand,Wellington,Muldersvlei,Strand,Wellington,Wellington,Strand,Muldersvlei,Malmesbury,Worcester,Wellington,Strand,Muldersvlei
 10:22,10:45,11:14,11:20,11:41,11:59,13:00,13:14,13:23,13:33,13,:50,14:05,14:20,14:40,15:23
 8,9,10,8,8,7, ,10,7,9,23,22,8,10,10
 4,4,4,4,4,4,3,4,4,4,2,2,4,4,4
 3513,3417,3217,3515,3419,3219,3517,3521,3221,3421,2661,3523,3525,3223,3423
 SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
 Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Bellville D,Cape Town,Cape Town,Bellville D,Cape Town
+Wellington,Strand,Muldersvlei,Wellington,Strand,Kraaifontein,Muldersvlei,Kraaifontein,Wellington,Eerste River A,Strand,Wellington
 15:36,15:44,15:58,16:29,16:49,17:15,17:35,18:15,18:06,18:23,19:10,19:10
 9,10,8,9,10,11,7, ,7,8, ,10
 4,4,4,4,4,4,4,4,4,4,11,4

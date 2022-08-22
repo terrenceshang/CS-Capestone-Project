@@ -1,12 +1,13 @@
 SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN
 Cape Town,Bellville D,Cape Town,Bellville D,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+Wellington,Strand,Kraaifontein,Muldersvlei,Strand,Wellington,Muldersvlei,Wellington,Strand,Wellington,Muldersvlei,Wellington,Strand,Wellington,Muldersvlei,Wellington,Strand
 05:22,06:20,06:10,06:55,06:40,07:00,07:52,08:00,08:36,09:00,09:20,10:05,10:34,11:14,11:47,12:15,12:39
 10, ,10, ,11,10,9,11,9,10,11,9,9,9,11,9,10
 4,11,4,11,4,4,4,4,4,4,4,4,4,4,4,4,4
 3501,3201,2501,3401,3203,3503,3403,3505,3205,3507,3405,3509,3207,3511,3407,3513,3209
 SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN
 Cape Town,Cape Town,Bellville D,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Bellville D,Cape Town
-13:10,13:43,14:23,14:13,14:40,15:10,15:35,15:45,16:10,16:28,17,:04,17:20,17:40,18:20,18:45,20:22,19:30
+Wellington,Kraaifontein,Muldersvlei,Wellington,Strand,Wellington,Muldersvlei,Strand,Strand,Worcester,Wellington,Strand,Wellington,Strand,Kraaifontein,Kraaifontein,Wellington13:10,13:43,14:23,14:13,14:40,15:10,15:35,15:45,16:10,16:28,17,:04,17:20,17:40,18:20,18:45,20:22,19:30
 9,10, ,9,11,9,10,9,11,11,8,11,9,22,12, ,9
 4,4,11,4,4,4,4,4,4,4,4,4,4,4,4,9,4
 3515,2505,3409,3517,3211,3519,3411,3291,3213,3521,3413,3215,3523,3217,2507,2509,3525

@@ -1,6 +1,12 @@
 SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB
+Kraaifontein,Strand,Wellington,Wellington,Muldersvlei,Kraaifontein,Strand,Wellington,Wellington,Muldersvlei,Strand,Strand,Wellington,Muldersvlei,Wellington,Strand
+Cape Town,Bellville A,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Bellville D,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+ , , , , , , , , , , , , , , , , 
 9,11,9,9,11,9,11,9,9,11,11,11,11,11,9,11
 2500,3200,3500,3502,3400,2512,3202,3504,3506,3402,3204,3206,3508,3404,3510,3208
 SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB,SUNPUB
+Muldersvlei,Wellington,Strand,Wellington,Muldersvlei,Wellington,Strand,Kraaifontein,Wellington,Muldersvlei,Wellington,Strand,Wellington,Muldersvlei,Strand,Wellington,Strand,Eerste River,Wellington
+Cape Town,Cape Town,Cape Town,Cape Town,Bellville A,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Bellville A,Cape Town,Cape Town,Cape Town,Bellville A,Bellville A
+ , , , , , , , , , , , , , , , , , , , 
 11,9,11,9,11,9,11,9,9,11,9,11,9,11,11,9,9,11,9
 3406,3512,3210,3514,3408,3516,3212,2516,3518,3410,3520,3214,3522,3412,3216,3524,3292,2308,3526
