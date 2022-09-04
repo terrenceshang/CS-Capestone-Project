@@ -6,6 +6,7 @@ file = open("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Onli
 cursor = conn.cursor()
 count = 0
 
+"""
 for line in file:
     line = line[0:-1]
     if count == 0:
@@ -38,6 +39,12 @@ for line in file:
         count = 0
         continue
     count = count + 1
+"""
+
+sql = "Update AreaCentral SET CTOtherRoute = 'ACKAPCPT1' WHERE DepartureLocation = 'Kapteinsklip' AND ArrivalLocation = 'Cape Town'"
+print(sql)
+cursor.execute(sql)
+cursor.commit()
 
 file.close()
 cursor.close()
