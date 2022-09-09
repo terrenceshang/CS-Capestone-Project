@@ -1,0 +1,18 @@
+ASCPTSMT1,Cape Town,Woodstock,Salt River,Observatory,Mowbray,Rosebank,Rondebosch,Newlands,Claremont,Harfield Rd,Henilworth,Wynberg,Wittebome,Plumstead,Steurhof,Dieprivier,Heathfield,Retreat,Steenberg,Lakeside,False Bay,Muizenberg,St James,Falk Bay,Fish Hoek,Sunny Cove,Glencairn,Simon's Town
+ASCPTSMT2,Cape Town,Woodstock,Salt River,Observatory,Rondebosch,Claremont,Henilworth,Wynberg,Plumstead,Steurhof,Dieprivier,Heathfield,Retreat,Steenberg,Lakeside,False Bay,Muizenberg,St James,Falk Bay,Fish Hoek,Sunny Cove,Glencairn,Simon's Town
+ASCPTSMT3,Cape Town,Woodstock,Salt River,Koeberg Rd,Maitland,Ndabeni,Pinelands,Hazendal,Athlone,Crawford,Lansdowne,Wetton,Ottery,Southfield,Heathfield,Retreat,Heathfield,Retreat,Steenberg,Lakeside,False Bay,Muizenberg,St James,Falk Bay,Fish Hoek
+ASCPTFHK1,Cape Town,Woodstock,Salt River,Observatory,Mowbray,Rosebank,Rondebosch,Newlands,Claremont,Harfield Rd,Henilworth,Wynberg,Wittebome,Plumstead,Steurhof,Dieprivier,Heathfield,Retreat,Steenberg,Lakeside,False Bay,Muizenberg,St James,Falk Bay,Fish Hoek
+ASCPTFHK2,Cape Town,Woodstock,Salt River,Observatory,Rondebosch,Claremont,Henilworth,Wynberg,Plumstead,Heathfield,Retreat,Steenberg,Lakeside,False Bay,Muizenberg,St James,Falk Bay,Fish Hoek
+ASCPTPSD1,Cape Town,Woodstock,Salt River,Observatory,Mowbray,Rosebank,Rondebosch,Newlands,Claremont,Harfield Rd,Henilworth,Wynberg,Wittebome,Plumstead
+ASCPTRTT1,Cape Town,Woodstock,Salt River,Observatory,Mowbray,Rosebank,Rondebosch,Newlands,Claremont,Harfield Rd,Henilworth,Wynberg,Wittebome,Plumstead,Steurhof,Dieprivier,Heathfield,Retreat
+ASCPTRTT2,Cape Town,Woodstock,Salt River,Koeberg Rd,Maitland,Ndabeni,Pinelands,Hazendal,Athlone,Crawford,Lansdowne,Wetton,Ottery,Southfield,Heathfield,Retreat
+ASCPTHFD1,Cape Town,Woodstock,Salt River,Koeberg Rd,Maitland,Ndabeni,Pinelands,Hazendal,Athlone,Crawford,Lansdowne,Wetton,Ottery,Southfield,Heathfield
+ASRTTSMT1,Retreat,Steenberg,Lakeside,False Bay,Muizenberg,St James,Falk Bay,Fish Hoek,Sunny Cove,Glencairn,Simon's Town
+ASSMTCPT1,Simon's Town,Glencairn,Sunny Cove,Fish Hoek,Kalk Bay,St James,Muizenberg,False Bay,Lakeside,Steenberg,Retreat,Heathfield,Dieprivier,Steurhof,Plumstead,Wittebome,Wynberg,Kenilworth,Harfield Rd,Claremont,Newlands,Rondebosch,Rosebank,Mowbray,Observatory,Salt River,Woodstock,Cape Town
+ASSMTCPT2,Simon's Town,Glencairn,Sunny Cove,Fish Hoek,Kalk Bay,St James,Muizenberg,False Bay,Lakeside,Steenberg,Retreat,Heathfield,Plumstead,Wynberg,Kenilworth,Claremont,Rondebosch,Mowbray,Observatory,Salt River,Woodstock,Cape Town
+ASSMTCPT1,Simon's Town,Glencairn,Sunny Cove,Fish Hoek,Kalk Bay,St James,Muizenberg,False Bay,Lakeside,Steenberg,Retreat,Heathfield,Dieprivier,Plumstead,Wynberg,Kenilworth,Claremont,Rondebosch,Mowbray,Observatory,Salt River,Woodstock,Cape Town
+ASFHKCPT1,Fish Hoek,Kalk Bay,St James,Muizenberg,False Bay,Lakeside,Steenberg,Retreat,Heathfield,Dieprivier,Steurhof,Plumstead,Wittebome,Wynberg,Kenilworth,Harfield Rd,Claremont,Newlands,Rondebosch,Rosebank,Mowbray,Observatory,Salt River,Woodstock,Cape Town
+ASHFDCPT1,Heathfield,Southfield,Ottery,Wetton,Lansdowne,Crawford,Athlone,Hazendal,Pinelands,Ndabeni,Maitland,Koeberg Rd,Salt River,Woodstock,Cape Town
+ASRTTCPT1,Retreat,Heathfield,Dieprivier,Steurhof,Plumstead,Wittebome,Wynberg,Kenilworth,Harfield Rd,Claremont,Newlands,Rondebosch,Rosebank,Mowbray,Observatory,Salt River,Woodstock,Cape Town
+ASRTTCPT2,Retreat,Heathfield,Southfield,Ottery,Wetton,Lansdowne,Crawford,Athlone,Hazendal,Pinelands,Ndabeni,Maitland,Koeberg Rd,Salt River,Woodstock,Cape Town
+ASPSDCPT1,Plumstead,Wittebome,Wynberg,Kenilworth,Harfield Rd,Claremont,Newlands,Rondebosch,Rosebank,Mowbray,Observatory,Salt River,Woodstock,Cape Town

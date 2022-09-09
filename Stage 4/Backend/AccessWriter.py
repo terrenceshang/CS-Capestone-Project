@@ -2,9 +2,35 @@ from turtle import tracer
 import pyodbc
 
 conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\Stage 4\\TrainSchedule.accdb;')
-file = open("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\forReading\\Area North\\Area North Combined.txt", "r")
+file = open("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\ANBELWLT1.txt", "r")
 cursor = conn.cursor()
 count = 0
+
+
+for line in file:
+    key = line[0:2]
+    line = line[3:-1]
+    list = line.split(",")
+
+    if (key == "SU"):
+        key = "SUN"
+    elif (key == "SA"):
+        key = "SAT"
+    print(key)
+    print(line)    
+
+
+    for i in range (len(list)):
+        sql = "Update AreaNorth SET BelOtherRoute = 'ANBELWLT1' WHERE TrainNumber = " + list[i] + " AND WorkingTime = '" + key +"'"
+        print(sql)
+        cursor.execute(sql)
+        cursor.commit()
+
+
+
+#sql = "Update AreaNorth SET CTOtherRoute = '' WHERE DepartureLocation = 'Retreat' AND ArrivalLocation = 'Cape Town'"
+
+
 
 """
 for line in file:
@@ -41,10 +67,7 @@ for line in file:
     count = count + 1
 """
 
-sql = "Update AreaCentral SET CTOtherRoute = 'ACKAPCPT1' WHERE DepartureLocation = 'Kapteinsklip' AND ArrivalLocation = 'Cape Town'"
-print(sql)
-cursor.execute(sql)
-cursor.commit()
+
 
 file.close()
 cursor.close()

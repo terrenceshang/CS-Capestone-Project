@@ -237,23 +237,23 @@ Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville
  , , , , , , , 
 2801,2803,2805,2807,2809,2811,2817,2819
 MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF,MF
-Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
 Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
 05:12,06:18,06:37,06:45,07:35,07:53,08:30,08:55,09:50,10:20,10:51,11:13,11:45,12:14,14:20,14:32,15:10,15:35,15:50,16:35,16:36,17:11,17:32,18:03,19:00,19:15
  , , , , , , , , , , , , , , , , , , , , , , , , , 
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 2802,2804,2806,2858,2808,2810,2812,2814,2816,2860,2854,2820,2862,2856,2864,2828,2830,2852,2832,2834,2836,2838,2868,2840,2844,2870
 SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT,SAT
-Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
 Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville
-06:05,09:10,11:05,12:00,13:20,15:40,18:30,19:30,12:41,14:14,17:10
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
+08:25,09:10,11:05,12:00,13:20,15:40,18:30,19:30,12:41,14:14,17:10
  , , , , , , , , , , 
 2,2,2,2,2,2,2,2,2,2,2
 2808,2810,2814,2816,2820,2830,2834,2836,2818,2822,2832
 SUN,SUN,SUN,SUN,SUN,SUN,SUN,SUN
-Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
 Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville,Bellville
+Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town,Cape Town
 08:10,10:00,12:00,14:00,16:00,18:00,18:50,20:05
  , , , , , , , 
 2,2,2,2,2,2,2,2
-2802,2804,2806,2808,2810,2816,2818,2800
+2800,2802,2804,2806,2808,2810,2816,2818
