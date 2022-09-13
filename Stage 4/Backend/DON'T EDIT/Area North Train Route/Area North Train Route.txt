@@ -1,0 +1,48 @@
+ANBELCPT1,Bellville D-4-Tygerberg-2-Parow-3-Elsies River-2-Vasco-2-Goodwood-2-Thornton-3-Mutual-2-Woltemade-3-Maitland-2-Koeberg Rd-3-Salt River-3-Woodstock-5-Cape Town
+ANBELCPT2,Bellville D-3-Oosterzee-3-Avondale-2-De Grendel-4-Monte Vista-3-Akasia Park-3-Century City-2-Kentemade-3-Ysterplaat-5-Esplanade-5-Cape Town
+ANBELCPT3,Bellville D-7-Elsies River-4-Goodwood-6-Mutual-12-Cape Town
+ANBELCPT4,Bellville D-7-Elsies River-4-Goodwood-6-Mutual-2-Woltemade-3-Maitland-2-Koeberg Rd-3-Salt River-3-Woodstock-5-Cape Town
+ANBELCPT5,Bellville D-9-Monte Vista-3-Century City-7-Ysterplaat-9-Cape Town
+ANBELERV1,Bellville D-6-Kuils River-5-Blackheath-4-Meltonrose-3-Eerste River A
+ANBELKFT1,Bellville D-4-Stikland-8-Brackenfell-5-Eikenfontein-3-Kraaifontein
+ANBELKRR1,Bellville D-6-Kuils River
+ANBELMDS1,Bellville D-6-Kuils River-5-Blackheath-4-Meltonrose-3-Eerste River A-1-Eerste River D-6-Lynedoch-3-Vlottenburg-6-Stellenbosch-4-Du Toit-7-Koelenhof-6-Muldersvlei
+ANBELMMB1,Bellville D-4-Stikland-8-Brackenfell-5-Eikenfontein-3-Kraaifontein-14-Fisantkraal-12-Mellish-6-Mikpunt-6-Klipheuwel-11-Wintevogel-11-Kalbaskraal-13-Abbotsdale-8-Malmesbury
+ANBELMMB2,Bellville D-4-Stikland-8-Brackenfell-5-Kraaifontein-14-Fisantkraal-12-Mellish-6-Mikpunt-6-Klipheuwel-11-Wintevogel-11-Kalbaskraal-13-Abbotsdale-8-Malmesbury
+ANBELPRW1,Bellville D-5-Parow
+ANBELSTD1,Bellville D-6-Kuils River-5-Blackheath-4-Meltonrose-3-Eerste River A-1-Eerste River D-5-Faure-6-Firgrove-13-Somerset West-3-Van Der Stel-5-Strand
+ANBELWCT1,Bellville D-4-Stikland-8-Brackenfell-5-Eikenfontein-3-Kraaifontein-11-Muldersvlei-6-Klapmuts-9-Paarl-5-Huguenot-3-Dal Josafat-4-Mbekweni-5-Wellington-7-Malan-7-Soetendal-6-Hermon-8-Voelvlei-8-Gouda-11-Tulbaghweg-11-Artois-8-Wolseley-9-Romans River-5-Bree River-6-Botha-6-Goudini Rd-12-Worcester
+ANBELWCT2,Bellville D-4-Stikland-8-Brackenfell-5-Eikenfontein-3-Kraaifontein-11-Muldersvlei-14-Huguenot-15-Mbekweni-5-Wellington-7-Malan-7-Soetendal-6-Hermon-8-Voelvlei-8-Gouda-11-Tulbaghweg-11-Artois-8-Wolseley-9-Romans River-5-Bree River-6-Botha-6-Goudini Rd-12-Worcester
+ANBELWLT1,Bellville D-4-Stikland-8-Brackenfell-5-Eikenfontein-3-Kraaifontein-11-Muldersvlei-6-Klapmuts-9-Paarl-5-Huguenot-3-Dal Josafat-4-Mbekweni-5-Wellington
+ANBELWLT2,Bellville D-6-Kuils River-5-Blackheath-4-Meltonrose-3-Eerste River A-1-Eerste River D-6-Lynedoch-3-Vlottenburg-6-Stellenbosch-4-Du Toit-7-Koelenhof-6-Muldersvlei-6-Klapmuts-9-Paarl-5-Huguenot-3-Dal Josafat-4-Mbekweni-5-Wellington
+ANBELWLT3,Bellville D-7-Brackenfell-5-Kraaifontein-24-Paarl-5-Huguenot-15-Mbekweni-5-Wellington
+ANCPTBEL1,Cape Town-3-Woodstock-4-Salt River-2-Koeberg Rd-3-Maitland-3-Woltemade-2-Mutual-3-Thornton-2-Goodwood-2-Vasco-3-Elsies River-3-Parow-2-Tygerberg-4-Bellville A
+ANCPTBEL2,Cape Town-3-Esplanade-5-Ysterplaat-4-Kentemade-3-Century City-3-Akasia Park-3-Monte Vista-4-De Grendel-2-Avondale-3-Oosterzee-2-Bellville A
+ANCPTBEL3,Cape Town-12-Ysterplaat-14-Bellville A
+ANCPTBEL4,Cape Town-3-Esplanade-5-Ysterplaat-4-Kentemade-3-Akasia Park-3-Monte Vista-4-De Grendel-2-Avondale-3-Oosterzee-2-Bellville A
+ANCPTBEL5,Cape Town-12-Mutual-13-Bellville A
+ANCPTMTL1,Cape Town-12-Mutual
+ANERVBEL1,Eerste River-4-Meltonrose-4-Blackheath-5-Kuils River-7-Bellville A
+ANERVMDS1,Eerste River D-6-Lynedoch-3-Vlottenburg-6-Stellenbosch-4-Du Toit-7-Koelenhof-6-Muldersvlei
+ANFGVBEL1,Firgrove-6-Faure-5-Eerste River-4-Meltonrose-4-Blackheath-5-Kuils River-7-Bellville A
+ANHGTSTD1,Huguenot-5-Paarl-24-Kraaifontein-7-Brackenfell-4-Stikland
+ANKFTBEL1,Kraaifontein-3-Eikenfontein-5-Brackenfell-4-Stikland-4-Bellville A
+ANKFTBEL2,Kraaifontein-7-Brackenfell-4-Stikland-4-Bellville A
+ANKFTWLT1,Kraaifontein-11-Muldersvlei-6-Klapmuts-9-Paarl-5-Huguenot-3-Dal Josafat-4-Mbekweni-5-Wellington
+ANKRRBEL1,Kuils River-7-Bellville A
+ANKRRSTD1,Kuils River-11-Eerste River A-11-Firgrove-13-Somerset West-9-Strand
+ANMDSBEL1,Muldersvlei-5-Koelenhof-5-Du Toit-4-Stellenbosch-5-Vlottenburg-11-Lynedoch-6-Eerste River-4-Meltonrose-4-Blackheath-5-Kuils River-7-Bellville A
+ANMDSERV1,Muldersvlei-5-Koelenhof-5-Du Toit-4-Stellenbosch-5-Vlottenburg-11-Lynedoch-6-Eerste River
+ANMMYBEL1,Malmesbury-5-Abbotsdale-12-Kalbaskraal-9-Wintevogel-10-Klipheuwel-6-Mikpunt-8-Mellish-7-Fisantkraal-7-Kraaifontein-3-Eikenfontein-5-Brackenfell-4-Stikland-4-Bellville A
+ANMMYBEL2,Malmesbury-5-Abbotsdale-12-Kalbaskraal-9-Wintevogel-10-Klipheuwel-6-Mikpunt-8-Mellish-7-Fisantkraal-7-Kraaifontein-7-Brackenfell-4-Stikland-4-Bellville A
+ANMRLBEL1,Mutual-5-Goodwood-12-Bellville A
+ANMTLCPT1,Mutual-12-Cape Town
+ANPRWBEL1,Parow-2-Tygerberg-4-Bellville A
+ANPRWBEL2,Parow-5-Bellville A
+ANSTDBEL1,Strand-5-Van Der Stel-3-Somerset West-5-Firgrove-6-Faure-5-Eerste River-4-Meltonrose-4-Blackheath-5-Kuils River-7-Bellville A
+ANSTDHGT1,Stikland-8-Brackenfell-5-Kraaifontein-24-Paarl-5-Huguenot
+ANWCTBEL1,Worcester-11-Goudini Rd-6-Botha-6-Bree River-5-Romans River-8-Wolseley-6-Artois-10-Tulbaghweg-10-Gouda-3-Voelvlei-9-Hermon-9-Soetendal-8-Malan-9-Wellington-5-Mbekweni-5-Dal Josafat-4-Huguenot-5-Paarl-10-Klapmuts-6-Muldersvlei-11-Kraaifontein-3-Eikenfontein-5-Brackenfell-4-Stikland-4-Bellville A
+ANWCTBEL2,Worcester-11-Goudini Rd-6-Botha-6-Bree River-5-Romans River-8-Wolseley-6-Artois-10-Tulbaghweg-10-Gouda-3-Voelvlei-9-Hermon-9-Soetendal-8-Malan-9-Wellington-5-Mbekweni-6-Huguenot-17-Muldersvlei-11-Kraaifontein-7-Brackenfell-4-Stikland-4-Bellville A
+ANWLTBEL1,Wellington-5-Mbekweni-5-Dal Josafat-4-Huguenot-5-Paarl-10-Klapmuts-6-Muldersvlei-11-Kraaifontein-3-Eikenfontein-5-Brackenfell-4-Stikland-4-Bellville A
+ANWLTBEL2,Wellington-5-Mbekweni-5-Dal Josafat-22-Muldersvlei-11-Kraaifontein-13-Stikland-4-Bellville A
+ANWLTKFT1,Wellington-5-Mbekweni-5-Dal Josafat-4-Huguenot-5-Paarl-10-Klapmuts-6-Muldersvlei-11-Kraaifontein

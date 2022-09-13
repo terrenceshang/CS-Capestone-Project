@@ -1,0 +1,29 @@
+ACBELCPT1,Bellville-7-Sarepta-3-Pentech-2-Unibell-3-Belhar-3-Lavistown-4-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-4-Esplanade-5-Cape Town
+ACBELCPT2,Bellville-7-Sarepta-3-Pentech-2-Unibell-3-Belhar-3-Lavistown-4-Bonteheuwel A-1-Bonteheuwel D-3-Langa-5-Pinelands-2-Ndabeni-3-Maitland-2-Koeberg Rd-3-Salt River-3-Woodstock-4-Cape Town
+ACCHNCPT1,Chris Hani-4-Kuyasa-4-Khayelitsha-3-Nonkqubela-3-Nolungile-4-Mandalay A-1-Mandalay D-2-Stock Road-3-Philippi-5-Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-4-Esplanade-5-Cape Town
+ACCHNCPT3,Chris Hani-4-Kuyasa-4-Khayelitsha-3-Nonkqubela-3-Nolungile-4-Mandalay A-1-Mandalay D-2-Stock Road-3-Philippi-9-Heideveld-5-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-2-Paardeneiland-2-Esplanade-5-Cape Town
+ACCHNCPT4,Chris Hani-4-Kuyasa-4-Khayelitsha-3-Nonkqubela-3-Nolungile-6-Stock Road-13-Heideveld-5-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-4-Esplanade-5-Cape Town
+ACCHNCPT5,Chris Hani-4-Kuyasa-4-Khayelitsha-3-Nonkqubela-3-Nolungile-4-Mandalay A-1-Mandalay D-2-Stock Road-3-Philippi-5-Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-2-Paardeneiland-2-Esplanade-5-Cape Town
+ACCHNCPT6,Chris Hani-4-Kuyasa-4-Khayelitsha-3-Nonkqubela-3-Nolungile-4-Mandalay A-1-Mandalay D-2-Stock Road-3-Philippi-5-Nyanga-4-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-4-Esplanade-5-Cape Town
+ACCHNCPT7,Chris Hani-4-Kuyasa-4-Khayelitsha-3-Nonkqubela-3-Nolungile-4-Mandalay A-1-Mandalay D-2-Stock Road-3-Philippi-9-Heideveld-5-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-4-Esplanade-5-Cape Town
+ACCHNCPT8,Chris Hani-4-Kuyasa-4-Khayelitsha-3-Nonkqubela-3-Nolungile-6-Stock Road-8-Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-4-Esplanade-5-Cape Town
+ACCHNCPT9,Chris Hani-4-Kuyasa-4-Khayelitsha-3-Nonkqubela-3-Nolungile-4-Mandalay A-1-Mandalay D-2-Stock Road-3-Philippi-5-Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-5-Pinelands-2-Ndabeni-3-Maitland-2-Koeberg Rd-3-Salt River-3-Woodstock-4-Cape Town
+ACCPTBEL1,Cape Town-4-Esplanade-4-Ysterplaat-5-Mutual-5-Langa-3-Bonteheuwel A-1-Bonteheuwel D-5-Lavistown-4-Belhar-3-Unibell-3-Pentech-3-Sarepta-6-Bellville
+ACCPTCHN1,Cape Town-4-Esplanade-4-Ysterplaat-5-Mutual-5-Langa-3-Bonteheuwel A-1-Bonteheuwel D-3-Netreg-3-Heideveld-4-Nyanga-4-Philippi-3-Stock Road-2-Mandalay A-1-Mandalay D-3-Nolungile-3-Nonkqubela-4-Khayelitsha-4-Kuyasa-4-Chris Hani
+ACCPTCHN2,Cape Town-3-Woodstock-3-Salt River-2-Koeberg Rd-3-Maitland-3-Ndabeni-2-Pinelands-5-Langa-3-Bonteheuwel A-1-Bonteheuwel D-3-Netreg-3-Heideveld-4-Nyanga-4-Philippi-3-Stock Road-2-Mandalay A-1-Mandalay D-3-Nolungile-3-Nonkqubela-4-Khayelitsha-4-Kuyasa-4-Chris Hani
+ACCPTKAP1,Cape Town-4-Esplanade-4-Ysterplaat-5-Mutual-5-Langa-3-Bonteheuwel A-1-Bonteheuwel D-3-Netreg-3-Heideveld-4-Nyanga-4-Philippi-5-Lentegeur A-1-Lentegeur D-3-Mitchell's Plain-3-Kapteinsklip
+ACCPTKAP2,Cape Town-3-Woodstock-3-Salt River-2-Koeberg Rd-3-Maitland-3-Ndabeni-2-Pinelands-5-Langa-3-Bonteheuwel A-1-Bonteheuwel D-3-Netreg-3-Heideveld-4-Nyanga-4-Philippi-5-Lentegeur A-1-Lentegeur D-3-Mitchell's Plain-3-Kapteinsklip
+ACCPTKHA1,Cape Town-12-Mutual-11-Heideveld-4-Nyanga-7-Stock Road-2-Mandalay A-1-Mandalay D-6-Khayelitsha
+ACCPTKHA2,Cape Town-4-Esplanade-4-Ysterplaat-5-Mutual-5-Langa-3-Bonteheuwel A-1-Bonteheuwel D-3-Netreg-3-Heideveld-4-Nyanga-4-Philippi-3-Stock Road-2-Mandalay A-1-Mandalay D-3-Nolungile-3-Nonkqubela-4-Khayelitsha
+ACKAPCPT1,Kapteinsklip-3-Mitchell's Plain-3-Lentegeur A-1-Lentegeur D-3-Philippi-5-Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-4-Esplanade-5-Cape Town
+ACKAPCPT2,Kapteinsklip-3-Mitchell's Plain-3-Lentegeur A-1-Lentegeur D-3-Philippi-5-Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-5-Pinelands-2-Ndabeni-3-Maitland-2-Koeberg Rd-3-Salt River-3-Woodstock-4-Cape Town
+ACKHACPT1,Khayelitsha-3-Nonkqubela-3-Nolungile-4-Mandalay A-1-Mandalay D-2-Stock Road-3-Philippi-5-Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-4-Esplanade-5-Cape Town
+ACKHACPT2,Khayelitsha-3-Nonkqubela-3-Nolungile-4-Mandalay A-1-Mandalay D-2-Stock Road-3-Philippi-5-Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-2-Paardeneiland-2-Esplanade-5-Cape Town
+ACKHACPT3,Khayelitsha-3-Nonkqubela-3-Nolungile-4-Mandalay A-1-Mandalay D-2-Stock Road-3-Philippi-9-Heideveld-5-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-2-Paardeneiland-2-Esplanade-5-Cape Town
+ACKHACPT4,Khayelitsha-11-Mandalay A-1-Mandalay D-2-Stock Road-8-Nyanga-4-Heideveld-9-Mutual-12-Cape Town
+ACKHACPT5,Khayelitsha-3-Nonkqubela-3-Nolungile-4-Mandalay A-1-Mandalay D-2-Stock Road-3-Philippi-9-Heideveld-5-Bonteheuwel A-1-Bonteheuwel D-3-Langa-5-Pinelands-2-Ndabeni-3-Maitland-2-Koeberg Rd-3-Salt River-3-Woodstock-4-Cape Town
+ACMADCPT1,Mandalay D-2-Stock Road-8-Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-4-Esplanade-5-Cape Town
+ACMTLBEL1,Mutual-5-Langa-3-Bonteheuwel A-1-Bonteheuwel D-5-Lavistown-4-Belhar-3-Unibell-3-Pentech-3-Sarepta-6-Bellville
+ACMTLCHN1,Mutual-5-Langa-3-Bonteheuwel A-1-Bonteheuwel D-3-Netreg-3-Heideveld-4-Nyanga-4-Philippi-3-Stock Road-2-Mandalay A-1-Mandalay D-3-Nolungile-3-Nonkqubela-4-Khayelitsha-4-Kuyasa-4-Chris Hani
+ACNYACPT1,Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-5-Pinelands-2-Ndabeni-3-Maitland-2-Koeberg Rd-3-Salt River-3-Woodstock-4-Cape Town
+ACNYACPT2,Nyanga-4-Heideveld-4-Netreg-3-Bonteheuwel A-1-Bonteheuwel D-3-Langa-4-Mutual-6-Ysterplaat-4-Esplanade-5-Cape Town

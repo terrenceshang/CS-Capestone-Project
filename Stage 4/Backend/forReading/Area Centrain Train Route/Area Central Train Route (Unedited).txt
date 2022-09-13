@@ -1,0 +1,29 @@
+ACBELCPT1,Bellville,Sarepta,Pentech,Unibell,Belhar,Lavistown,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Esplanade,Cape Town
+ACBELCPT2,Bellville,Sarepta,Pentech,Unibell,Belhar,Lavistown,Bonteheuwel A,Bonteheuwel D,Langa,Pinelands,Ndabeni,Maitland,Koeberg Rd,Salt River,Woodstock,Cape Town
+ACCHNCPT1,Chris Hani,Kuyasa,Khayelitsha,Nonkqubela,Nolungile,Mandalay A,Mandalay D,Stock Road,Philippi,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Esplanade,Cape Town
+ACCHNCPT3,Chris Hani,Kuyasa,Khayelitsha,Nonkqubela,Nolungile,Mandalay A,Mandalay D,Stock Road,Philippi,Heideveld,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Paardeneiland,Esplanade,Cape Town
+ACCHNCPT4,Chris Hani,Kuyasa,Khayelitsha,Nonkqubela,Nolungile,Stock Road,Heideveld,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Esplanade,Cape Town
+ACCHNCPT5,Chris Hani,Kuyasa,Khayelitsha,Nonkqubela,Nolungile,Mandalay A,Mandalay D,Stock Road,Philippi,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Paardeneiland,Esplanade,Cape Town
+ACCHNCPT6,Chris Hani,Kuyasa,Khayelitsha,Nonkqubela,Nolungile,Mandalay A,Mandalay D,Stock Road,Philippi,Nyanga,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Esplanade,Cape Town
+ACCHNCPT7,Chris Hani,Kuyasa,Khayelitsha,Nonkqubela,Nolungile,Mandalay A,Mandalay D,Stock Road,Philippi,Heideveld,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Esplanade,Cape Town
+ACCHNCPT8,Chris Hani,Kuyasa,Khayelitsha,Nonkqubela,Nolungile,Stock Road,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Esplanade,Cape Town
+ACCHNCPT9,Chris Hani,Kuyasa,Khayelitsha,Nonkqubela,Nolungile,Mandalay A,Mandalay D,Stock Road,Philippi,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Pinelands,Ndabeni,Maitland,Koeberg Rd,Salt River,Woodstock,Cape Town
+ACCPTBEL1,Cape Town,Esplanade,Ysterplaat,Mutual,Langa,Bonteheuwel A,Bonteheuwel D,Lavistown,Belhar,Unibell,Pentech,Sarepta,Bellville
+ACCPTCHN1,Cape Town,Esplanade,Ysterplaat,Mutual,Langa,Bonteheuwel A,Bonteheuwel D,Netreg,Heideveld,Nyanga,Philippi,Stock Road,Mandalay A,Mandalay D,Nolungile,Nonkqubela,Khayelitsha,Kuyasa,Chris Hani
+ACCPTCHN2,Cape Town,Woodstock,Salt River,Koeberg Rd,Maitland,Ndabeni,Pinelands,Langa,Bonteheuwel A,Bonteheuwel D,Netreg,Heideveld,Nyanga,Philippi,Stock Road,Mandalay A,Mandalay D,Nolungile,Nonkqubela,Khayelitsha,Kuyasa,Chris Hani
+ACCPTKAP1,Cape Town,Esplanade,Ysterplaat,Mutual,Langa,Bonteheuwel A,Bonteheuwel D,Netreg,Heideveld,Nyanga,Philippi,Lentegeur A,Lentegeur D,Mitchell's Plain,Kapteinsklip
+ACCPTKAP2,Cape Town,Woodstock,Salt River,Koeberg Rd,Maitland,Ndabeni,Pinelands,Langa,Bonteheuwel A,Bonteheuwel D,Netreg,Heideveld,Nyanga,Philippi,Lentegeur A,Lentegeur D,Mitchell's Plain,Kapteinsklip
+ACCPTKHA1,Cape Town,Mutual,Heideveld,Nyanga,Stock Road,Mandalay A,Mandalay D,Khayelitsha
+ACCPTKHA2,Cape Town,Esplanade,Ysterplaat,Mutual,Langa,Bonteheuwel A,Bonteheuwel D,Netreg,Heideveld,Nyanga,Philippi,Stock Road,Mandalay A,Mandalay D,Nolungile,Nonkqubela,Khayelitsha
+ACKAPCPT1,Kapteinsklip,Mitchell's Plain,Lentegeur A,Lentegeur D,Philippi,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Esplanade,Cape Town
+ACKAPCPT2,Kapteinsklip,Mitchell's Plain,Lentegeur A,Lentegeur D,Philippi,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Pinelands,Ndabeni,Maitland,Koeberg Rd,Salt River,Woodstock,Cape Town
+ACKHACPT1,Khayelitsha,Nonkqubela,Nolungile,Mandalay A,Mandalay D,Stock Road,Philippi,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Esplanade,Cape Town
+ACKHACPT2,Khayelitsha,Nonkqubela,Nolungile,Mandalay A,Mandalay D,Stock Road,Philippi,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Paardeneiland,Esplanade,Cape Town
+ACKHACPT3,Khayelitsha,Nonkqubela,Nolungile,Mandalay A,Mandalay D,Stock Road,Philippi,Heideveld,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Paardeneiland,Esplanade,Cape Town
+ACKHACPT4,Khayelitsha,Mandalay A,Mandalay D,Stock Road,Nyanga,Heideveld,Mutual,Cape Town
+ACKHACPT5,Khayelitsha,Nonkqubela,Nolungile,Mandalay A,Mandalay D,Stock Road,Philippi,Heideveld,Bonteheuwel A,Bonteheuwel D,Langa,Pinelands,Ndabeni,Maitland,Koeberg Rd,Salt River,Woodstock,Cape Town
+ACMADCPT1,Mandalay D,Stock Road,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Esplanade,Cape Town
+ACMTLBEL1,Mutual,Langa,Bonteheuwel A,Bonteheuwel D,Lavistown,Belhar,Unibell,Pentech,Sarepta,Bellville
+ACMTLCHN1,Mutual,Langa,Bonteheuwel A,Bonteheuwel D,Netreg,Heideveld,Nyanga,Philippi,Stock Road,Mandalay A,Mandalay D,Nolungile,Nonkqubela,Khayelitsha,Kuyasa,Chris Hani
+ACNYACPT1,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Pinelands,Ndabeni,Maitland,Koeberg Rd,Salt River,Woodstock,Cape Town
+ACNYACPT2,Nyanga,Heideveld,Netreg,Bonteheuwel A,Bonteheuwel D,Langa,Mutual,Ysterplaat,Esplanade,Cape Town
