@@ -1,0 +1,88 @@
+Cape Town,Woodstock,3
+Woodstock,Salt River,3
+Salt River,Koeberg Rd,2
+Koeberg Rd,Maitland,3
+Maitland,Ndabeni,3
+Ndabeni,Pinelands,2
+Pinelands,Langa,5
+Langa,Bonteheuwel,3
+Bonteheuwel,Netreg,4
+Netreg,Heideveld,3
+Heideveld,Nyanga,4
+Nyanga,Philippi,4
+Philippi,Lentegeur,5
+Lentegeur,Mitchell's Plain,4
+Mitchell's Plain,Kapteinsklip,3
+
+Cape Town,Esplanade,4
+Esplanade,Ysterplaat,4
+Ysterplaat,Mutual,5
+Mutual,Langa,5
+Philippi,Stock Road,3
+Stock Road,Mandalay,2
+Mandalay,Nolungile,4
+Nolungile,Nonkqubela,3
+Nonkqubela,Khayelitsha,4
+Khayelitsha,Kuyasa,4
+Kuyasa,Chris Hani,4
+
+Bonteheuwel,Lavistown,6
+Lavistown,Belhar,4
+Belhar,Unibell,3
+Unibell,Pentech,3
+Pentech,Sarepta,3
+Sarepta,Bellville,6
+
+Cape Town,Mutual,12
+Mutual,Heideveld,11
+Nyanga,Stock Road,7
+Mandalay,Khayelitsha,7
+
+Chris Hani,Kuyasa,4
+Kuyasa,Khayelitsha,4
+Khayelitsha,Nonkqubela,3
+Nonkqubela,Nolungile,3
+Nolungile,Mandalay,4
+Mandalay,Stock Road,3
+Stock Road,Philippi,3
+Philippi,Nyanga,5
+Nyanga,Heideveld,4
+Heideveld,Netreg,4
+Netreg,Bonteheuwel,3
+Bonteheuwel,Langa,4
+Langa,Mutual,4
+Mutual,Ysterplaat,6
+Ysterplaat,Esplanade,4
+Esplanade,Cape Town,5
+
+Kapteinsklip,Mitchell's Plain,3
+Mitchell's Plain,Lentegeur,3
+Lentegeur,Philippi,4
+Philippi,Nyanga,5
+Langa,Pinelands,5
+Pinelands,Ndabeni,2
+Ndabeni,Maitland,3
+Maitland,Koeberg Rd,2
+Koeberg Rd,Salt River,3
+Salt River,Woodstock,3
+Woodstock,Cape Town,4
+
+Bellville,Sarepta,7
+Sarepta,Pentech,3
+Pentech,Unibell,2
+Unibell,Belhar,3
+Belhar,Lavistown,3
+Lavistown,Bonteheuwel,4
+
+Philippi,Heideveld,9
+Stock Road,Heideveld,13
+Stock Road,Nyanga,8
+Ysterplaat,Paardeneiland,2
+Paardeneiland,Esplanade,2
+Heideveld,Bonteheuwel,5
+Khayelitsha,Mandalay,11
+Nyanga,Bonteheuwel,4
+Heideveld,Mutual,9
+Nolungile,Stock Road,6
+Mutual,Cape Town,12
+

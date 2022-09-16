@@ -18,13 +18,13 @@ for line in list:
 file.close()
 """
 
-file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Area North Train Route.txt", "r")
+file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Area Central Train Route.txt", "r")
 lstRoute = []
 for line in file:
     lstRoute.append (line[:-1].split(","))
 file.close()
 
-file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Area North Duration.txt", "r")
+file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Area Central Duration.txt", "r")
 lstDuration = []
 for line in file:
     lstDuration.append (line[:-1].split(","))
@@ -48,3 +48,5 @@ for list in lstRoute:
     file.writelines(output)
 
 print(lstDuration[1])
+
+
