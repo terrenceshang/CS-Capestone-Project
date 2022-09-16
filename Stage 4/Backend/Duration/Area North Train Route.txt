@@ -40,9 +40,12 @@ ANMTLCPT1,Mutual,Cape Town
 ANPRWBEL1,Parow,Tygerberg,Bellville
 ANPRWBEL2,Parow,Bellville
 ANSTDBEL1,Strand,Van Der Stel,Somerset West,Firgrove,Faure,Eerste River,Meltonrose,Blackheath,Kuils River,Bellville
+ANSTDBEL1,Strand,Somerset West,Firgrove,Eerste River,Kuils River
 ANSTDHGT1,Stikland,Brackenfell,Kraaifontein,Paarl,Huguenot
 ANWCTBEL1,Worcester,Goudini Rd,Botha,Bree River,Romans River,Wolseley,Artois,Tulbaghweg,Gouda,Voelvlei,Hermon,Soetendal,Malan,Wellington,Mbekweni,Dal Josafat,Huguenot,Paarl,Klapmuts,Muldersvlei,Kraaifontein,Eikenfontein,Brackenfell,Stikland,Bellville
 ANWCTBEL2,Worcester,Goudini Rd,Botha,Bree River,Romans River,Wolseley,Artois,Tulbaghweg,Gouda,Voelvlei,Hermon,Soetendal,Malan,Wellington,Mbekweni,Huguenot,Muldersvlei,Kraaifontein,Brackenfell,Stikland,Bellville
 ANWLTBEL1,Wellington,Mbekweni,Dal Josafat,Huguenot,Paarl,Klapmuts,Muldersvlei,Kraaifontein,Eikenfontein,Brackenfell,Stikland,Bellville
 ANWLTBEL2,Wellington,Mbekweni,Dal Josafat,Muldersvlei,Kraaifontein,Stikland,Bellville
 ANWLTKFT1,Wellington,Mbekweni,Dal Josafat,Huguenot,Paarl,Klapmuts,Muldersvlei,Kraaifontein
+ANBELFGV1,Bellville,Kuils River,Blackheath,Meltonrose,Eerste River,Faure,Firgrove
+ANCPTWLT1,Cape Town,Esplanade,Ysterplaat,Kentemade,Century City,Akasia Park,Monte Vista,De Grendel,Avondale,Oosterzee,Bellville,Stikland,Brackenfell,Eikenfontein,Kraaifontein,Muldersvlei,Klapmuts,Paarl,Huguenot,Dal Josafat,Mbekweni,Wellington

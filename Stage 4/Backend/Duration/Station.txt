@@ -11,8 +11,7 @@ Esplanade,CN
 Bellville,CN
 
 Langa,C
-Bonteheuwel A,C
-Bonteheuwel D,C
+Bonteheuwel,C
 Netreg,C
 Heideveld,C
 Nyanga,C
@@ -22,8 +21,7 @@ Lentegeur D,C
 Mitchell's Plain,C
 Kapteinsklip,C
 Stock Road,C
-Mandalay A,C
-Mandalay D,C
+Mandalay,C
 Nolungile,C
 Nonkqubela,C
 Khayelitsha,C
