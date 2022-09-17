@@ -121,72 +121,74 @@ def searchAllRoute (start, end, day):
                         break                          
 
 #Find the list of the duration
-        lstDuration = []
-        if trainLine == "AreaCentral":
-            for route in lstRoute:
-                duration = 0
-                for i in range (len(route) - 1):
-                    for j in range (len(lstACDuration)):
-                        if lstACDuration[j][0] == route[i] and lstACDuration[j][1] == route[i+1]:
-                            duration = duration + int(lstACDuration[j][2])
-                            break
-                lstDuration.append(duration)
-        if trainLine == "AreaNorth":
-            for route in lstRoute:
-                duration = 0
-                for i in range (len(route) - 1):
-                    for j in range (len(lstANDuration)):
-                        if lstANDuration[j][0] == route[i] and lstANDuration[j][1] == route[i+1]:
-                            duration = duration + int(lstANDuration[j][2])
-                            break
-                lstDuration.append(duration)
+        if (len(lstRoute) > 0):
+            lstDuration = []
+            if trainLine == "AreaCentral":
+                for route in lstRoute:
+                    duration = 0
+                    for i in range (len(route) - 1):
+                        for j in range (len(lstACDuration)):
+                            if lstACDuration[j][0] == route[i] and lstACDuration[j][1] == route[i+1]:
+                                duration = duration + int(lstACDuration[j][2])
+                                break
+                    lstDuration.append(duration)
+            if trainLine == "AreaNorth":
+                for route in lstRoute:
+                    duration = 0
+                    for i in range (len(route) - 1):
+                        for j in range (len(lstANDuration)):
+                            if lstANDuration[j][0] == route[i] and lstANDuration[j][1] == route[i+1]:
+                                duration = duration + int(lstANDuration[j][2])
+                                break
+                    lstDuration.append(duration)
 
-        if trainLine == "AreaSouth":
-            for route in lstRoute:
-                duration = 0
-                for i in range (len(route) - 1):
-                    for j in range (len(lstASDuration)):
-                        if lstASDuration[j][0] == route[i] and lstASDuration[j][1] == route[i+1]:
-                            duration = duration + int(lstASDuration[j][2])
-                            break
-                lstDuration.append(duration)
-#Reading access and return the all possible train numbers
-        conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\Stage 4\\TrainSchedule.accdb;')
-        cursor = conn.cursor()
-        
-        tempLine = ""
-        for line in tempList:
-            tempLine = tempLine + "OR Route = '" + line + "' "
-        tempLine = tempLine[3:]  
+            if trainLine == "AreaSouth":
+                for route in lstRoute:
+                    duration = 0
+                    for i in range (len(route) - 1):
+                        for j in range (len(lstASDuration)):
+                            if lstASDuration[j][0] == route[i] and lstASDuration[j][1] == route[i+1]:
+                                duration = duration + int(lstASDuration[j][2])
+                                break
+                    lstDuration.append(duration)
 
-        if day == "MTH":
-            sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'MF' OR WorkingTime = 'MTH') AND (" + tempLine + ")"
-            cursor.execute(sql)
-            myresult = cursor.fetchall()
+    #Reading access and return the all possible train numbers
+            conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\Stage 4\\TrainSchedule.accdb;')
+            cursor = conn.cursor()
+            
+            tempLine = ""
+            for line in tempList:
+                tempLine = tempLine + "OR Route = '" + line + "' "
+            tempLine = tempLine[3:]  
 
-        if day == "MF":
-            sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'MF') AND (" + tempLine + ")"
-            cursor.execute(sql)
-            myresult = cursor.fetchall()     
+            if day == "MTH":
+                sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'MF' OR WorkingTime = 'MTH') AND (" + tempLine + ")"
+                cursor.execute(sql)
+                myresult = cursor.fetchall()
 
-        if day == "SAT":
-            sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'SAT') AND (" + tempLine + ")"
-            cursor.execute(sql)
-            myresult = cursor.fetchall()   
+            if day == "MF":
+                sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'MF') AND (" + tempLine + ")"
+                cursor.execute(sql)
+                myresult = cursor.fetchall()     
 
-        if day == "SUN":
-            sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'SUN') AND (" + tempLine + ")"
-            cursor.execute(sql)
-            myresult = cursor.fetchall()
+            if day == "SAT":
+                sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'SAT') AND (" + tempLine + ")"
+                cursor.execute(sql)
+                myresult = cursor.fetchall()   
+
+            if day == "SUN":
+                sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'SUN') AND (" + tempLine + ")"
+                cursor.execute(sql)
+                myresult = cursor.fetchall()
 
 
-        for i in range (len(myresult)):
-            for j in range (len(tempList)):
-                if tempList[j] == myresult[i][2]:
-                    myresult[i][2] = lstDuration[j]
-                    break
-        return myresult 
-
+            for i in range (len(myresult)):
+                for j in range (len(tempList)):
+                    if tempList[j] == myresult[i][2]:
+                        myresult[i][2] = lstDuration[j]
+                        break
+            return myresult 
+        #else: Same line, different route
 def main():
     list = search("Kraaifontein","Worcester","Monday") 
     for line in list:
