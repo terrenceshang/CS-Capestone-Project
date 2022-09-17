@@ -1,7 +1,13 @@
 {% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
 %}
 <form method="POST">
+  <br />
   <button type="submit" class="btn btn-primary" align="left">Back</button>
   <h1 align="center">Take the following trains:</h1>
+  {% for e in trains %}
+    <li class="list-group-item">
+      {{e}}
+    </li>
+  {% endfor %}
 </form>
 {% endblock %}
