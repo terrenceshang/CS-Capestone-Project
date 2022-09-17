@@ -18,13 +18,14 @@ for line in list:
 file.close()
 """
 
-file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Area Central Train Route.txt", "r")
+
+file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Area North Train Route.txt", "r")
 lstRoute = []
 for line in file:
     lstRoute.append (line[:-1].split(","))
 file.close()
 
-file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Area Central Duration.txt", "r")
+file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Area North Duration.txt", "r")
 lstDuration = []
 for line in file:
     lstDuration.append (line[:-1].split(","))
@@ -34,8 +35,10 @@ file = open  ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\On
 lstOutput = []
 for list in lstRoute:
     output = ""
+    
     for i in range (len(list)-1):
         output = output + list[i] 
+        
         for j in range (len(lstDuration)):
             checker = False
             if lstDuration[j][0] == list[i] and lstDuration[j][1] == list[i+1]:
@@ -50,3 +53,40 @@ for list in lstRoute:
 print(lstDuration[1])
 
 
+"""
+import pyodbc
+
+file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Area North Train Route.txt", "r")
+lstRoute = []
+for line in file:
+    lstRoute.append (line[:-1].split(","))
+file.close()
+
+conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\Stage 4\\TrainSchedule.accdb;')
+cursor = conn.cursor()
+sql = "SELECT Route FROM AreaNorth"
+cursor.execute(sql)
+myresult = cursor.fetchall()
+
+list = []
+for line in myresult:
+    if len(line[0]) > 9 and line[0] not in list:
+        list.append(line[0])
+        print (line[0])
+
+file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Temp.txt", "w")
+for line in list:
+    output = line
+    for templist in lstRoute:
+        if templist[0] == line[0:9]:
+            for i in range (1,len(templist)):
+                output = output + "," + templist[i]
+    for templist in lstRoute:
+        if templist[0] == line[9:18]:
+            for i in range (1,len(templist)):
+                output = output + "," + templist[i]
+    output = output + "\n"
+    file.writelines(output)
+file.close()
+
+"""
