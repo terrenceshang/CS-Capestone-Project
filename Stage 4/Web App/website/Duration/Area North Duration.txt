@@ -1,0 +1,224 @@
+Cape Town,Woodstock,3
+Woodstock,Salt River,4
+Salt River,Koeberg Rd,2
+Koeberg Rd,Maitland,3
+Maitland,Woltemade,3
+Woltemade,Mutual,2
+Mutual,Thornton,3
+Thornton,Goodwood,2
+Goodwood,Vasco,2
+Vasco,Elsies River,3
+Elsies River,Parow,3
+Parow,Tygerberg,2
+Tygerberg,Bellville,4
+Bellville,Kuils River,8
+Kuils River,Blackheath,5
+Blackheath,Meltonrose,4
+Meltonrose,Eerste River,3
+
+Eerste River,Faure,6
+Faure,Firgrove,6
+Firgrove,Somerset West,13
+Somerset West,Van Der Stel,3
+Van Der Stel,Strand,5
+
+Cape Town,Esplanade,3
+Esplanade,Ysterplaat,5
+Bellville,Lynedoch,7
+Lynedoch,Vlottenburg,3
+Vlottenburg,Stellenbosch,6
+Stellenbosch,Du Toit,4
+Du Toit,Koelenhof,7
+Koelenhof,Muldersvlei,6
+
+Bellville,Stikland,5
+Stikland,Brackenfell,8
+Brackenfell,Eikenfontein,5
+Eikenfontein,Kraaifontein,3
+Kraaifontein,Muldersvlei,11
+Muldersvlei,Klapmuts,6
+Klapmuts,Paarl,9
+Paarl,Huguenot,5
+Huguenot,Dal Josafat,3
+Dal Josafat,Mbekweni,4
+Mbekweni,Wellington,5
+
+Elsies River,Bellville,5
+Eerste River,Lynedoch,7
+Cape Town,Mutual,12
+Mutual,Bellville,13
+Mutual,Goodwood,5
+Goodwood,Bellville,12
+Kuils River,Eerste River,11
+Eerste River,Firgrove,11
+Somerset West,Strand,9
+Brackenfell,Kraaifontein,5
+Kraaifontein,Paarl,24
+Muldersvlei,Huguenot,14
+Huguenot,Mbekweni,15
+Cape Town,Ysterplaat,12
+
+Kraaifontein,Eikenfontein,3
+Eikenfontein,Brackenfell,5
+Brackenfell,Stikland,4
+Stikland,Bellville,4
+Bellville,Tygerberg,5
+Tygerberg,Parow,2
+Parow,Elsies River,3
+Elsies River,Vasco,2
+Vasco,Goodwood,2
+Goodwood,Thornton,2
+Thornton,Mutual,3
+Mutual,Woltemade,2
+Woltemade,Maitland,3
+Maitland,Koeberg Rd,2
+Koeberg Rd,Salt River,3
+Salt River,Woodstock,3
+Woodstock,Cape Town,5
+
+Strand,Van Der Stel,5
+Van Der Stel,Somerset West,3
+Somerset West,Firgrove,5
+Firgrove,Faure,6
+Faure,Eerste River,5
+Eerste River,Meltonrose,4
+Meltonrose,Blackheath,4
+Blackheath,Kuils River,5
+Kuils River,Bellville,7
+
+Wellington,Mbekweni,5
+Mbekweni,Dal Josafat,5
+Dal Josafat,Huguenot,4
+Huguenot,Paarl,5
+Paarl,Klapmuts,10
+Klapmuts,Muldersvlei,6
+Muldesvlei,Kraaifontein,11
+
+Dal Josafat,Muldersvlei,22
+Kraaifontein,Stikland,13
+Bellville,Parow,6
+Kraaifontein,Brackenfell,7
+Paarl,Kraaifontein,24
+Mbekweni,Huguenot,6
+Huguenot,Muldersvlei,17
+Strand,Somerset West,7
+Firgrove,Eerste River,9
+Eerste River,Kuils River,10
+Kuils River,Mutual,21
+Mutual,Cape Town,12
+Bellville,Cape Town,26
+Bellville,Elsies River,8
+Elsies River,Goodwood,4
+Goodwood,Mutual,6
+Bellville,Goodwood,11
+
+Ysterplaat,Kentemade,4
+Kentemade,Century City,3
+Century City,Akasia Park,3
+Akasia Park,Monte Vista,3
+Monte Vista,De Grendel,4
+De Grendel,Avondale,2
+Avondale,Oosterzee,3
+Oosterzee,Bellville,2
+Ysterplaat,Century City,8
+Century City,Monte Vista,3
+Monte Vista,Bellville,9
+Kentemade,Akasia Park,3
+
+Bellville,Oosterzee,4
+Oosterzee,Avondale,3
+Avondale,De Grendel,2
+De Grendel,Monte Vista,4
+Monte Vista,Akasia Park,3
+Akasia Park,Century City,3
+Century City,Kentemade,2
+Kentemade,Ysterplaat,3
+Ysterplaat,Esplanade,5
+Esplanade,Cape Town,5
+Bellville,Monte Vista,10
+Monte Vista,Century City,3
+Century City,Ysterplaat,7
+
+Kraaifontein,Fisantkraal,14
+Fisantkraal,Mellish,12
+Mellish,Mikpunt,6
+Mikpunt,Klipheuwel,6
+Klipheuwel,Wintevogel,11
+Wintevogel,Kalbaskraal,11
+Kalbaskraal,Abbotsdale,13
+Abbotsdale,Malmesbury,8
+
+Wellington,Malan,7
+Malan,Soetendal,7
+Soetendal,Hermon,6
+Hermon,Voelvlei,8
+Voelvlei,Gouda,8
+Gouda,Tulbaghweg,11
+Tulbaghweg,Artois,11
+Artois,Wolseley,8
+Wolseley,Romans River,9
+Romans River,Bree River,5
+Bree River,Botha,6
+Botha,Goudini Rd,6
+Goudini Rd,Worcester,12
+
+Malmesbury,Abbotsdale,5
+Abbotsdale,Kalbaskraal,12
+Kalbaskraal,Wintevogel,9
+Wintevogel,Klipheuwel,10
+Klipheuwel,Mikpunt,6
+Mikpunt,Mellish,8
+Mellish,Fisantkraal,7
+Fisantkraal,Kraaifontein,7
+Ysterplaat,Cape Town,9
+
+Worcester,Goudini Rd,11
+Goudini Rd,Botha,6
+Botha,Bree River,6
+Bree River,Romans River,5
+Romans River,Wolseley,8
+Wolseley,Artois,6
+Artois,Tulbaghweg,10
+Tulbaghweg,Gouda,10
+Gouda,Voelvlei,3
+Voelvlei,Hermon,9
+Hermon,Soetendal,9
+Soetendal,Malan,8
+Malan,Wellington,9
+
+Bellville,Parow,6
+Bellville,Brackenfell,8
+Wellington,Mbekweni,5
+Mbekweni,Huguenot,7
+Huguenot,Muldersvlei,7
+Mbekweni,Dal Josafat,5
+Dal Josafat,Huguenot,4
+Huguenot,Paarl,5
+Paarl,Klapmuts,10
+Klapmuts,Muldersvlei,7
+
+Muldersvlei,Huguenot,6
+Huguenot,Mbekweni,5
+Muldersvlei,Klapmuts,6
+Klapmuts,Paarl,11
+Paarl,Huguenot,5
+Huguenot,Dal Josafat,3
+Dal Josafat,Mbekweni,4
+Mbekweni,Wellington,6
+
+Muldersvlei,Koelenhof,5
+Koelenhof,Du Toit,5
+Du Toit,Stellenbosch,4
+Stellenbosch,Vlottenburg,5
+Vlottenburg,Lynedoch,11
+Lynedoch,Eerste River,6
+
+Ysterplaat,Bellville,14
+Muldersvlei,Kraaifontein,11
+Parow,Bellville,5
+Dal Josafat,Kraaifontein,22
+Mutual,Kuils River,20
+Mutual,Stikland,21
+Bellville,Parow,6
+Stikland,Mutual,18
+Kuils River,Mutual,21
