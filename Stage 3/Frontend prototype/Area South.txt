@@ -1,0 +1,351 @@
+0101,MF,Cape Town,Simon's Town,05:10,ASCPTSMT1
+0103,MF,Cape Town,Fish Hoek,05:25,ASCPTFHK1
+0105,MF,Cape Town,Fish Hoek,05:42,ASCPTFHK1
+0107,MF,Cape Town,Simon's Town,05:50,ASCPTSMT1
+0109,MF,Cape Town,Fish Hoek,06:35,ANCPTFHK3
+0111,MF,Cape Town,Plumstead,06:10,ASCPTPSD1
+0113,MF,Cape Town,Fish Hoek,06:16,ASCPTFHK1
+0115,MF,Cape Town,Simon's Town,06:27,ASCPTSMT1
+0117,MF,Cape Town,Fish Hoek,06:34,ASCPTFHK1
+0119,MF,Cape Town,Fish Hoek,06:44,ASCPTFHK1
+0121,MF,Cape Town,Plumstead,06:51,ASCPTPSD1
+0123,MF,Cape Town,Simon's Town,07:01,ASCPTSMT1
+0125,MF,Cape Town,Retreat,07:07,ASCPTRTT1
+0127,MF,Cape Town,Fish Hoek,07:16,ASCPTFHK1
+0129,MF,Cape Town,Retreat,07:22,ASCPTRTT1
+0131,MF,Cape Town,Simon's Town,07:32,ASCPTSMT1
+0133,MF,Cape Town,Fish Hoek,07:38,ASCPTFHK1
+0135,MF,Cape Town,Retreat,07:46,ASCPTRTT1
+0137,MF,Cape Town,Fish Hoek,07:55,ASCPTFHK1
+0139,MF,Cape Town,Simon's Town,08:09,ASCPTSMT1
+0141,MF,Cape Town,Fish Hoek,08:23,ASCPTFHK1
+0143,MF,Cape Town,Simon's Town,08:40,ASCPTSMT1
+0147,MF,Cape Town,Fish Hoek,09:11,ASCPTFHK1
+0149,MF,Cape Town,Simon's Town,09:32,ASCPTSMT1
+0153,MF,Cape Town,Simon's Town,10:23,ASCPTSMT1
+0155,MF,Cape Town,Fish Hoek,10:48,ASCPTFHK1
+0157,MF,Cape Town,Simon's Town,11:20,ASCPTSMT1
+0161,MF,Cape Town,Simon's Town,12:00,ASCPTSMT1
+0163,MF,Cape Town,Fish Hoek,12:20,ASCPTFHK1
+0165,MF,Cape Town,Simon's Town,12:40,ASCPTSMT1
+0169,MF,Cape Town,Simon's Town,13:18,ASCPTSMT1
+0171,MF,Cape Town,Fish Hoek,13:43,ASCPTFHK1
+0173,MF,Cape Town,Simon's Town,13:57,ASCPTSMT1
+0175,MF,Cape Town,Fish Hoek,14:10,ASCPTFHK1
+0177,MF,Cape Town,Fish Hoek,14:26,ASCPTFHK1
+0179,MF,Cape Town,Simon's Town,14:37,ASCPTSMT1
+0181,MF,Cape Town,Retreat,14:44,ASCPTRTT1
+0183,MF,Cape Town,Fish Hoek,14:52,ASCPTFHK1
+0185,MF,Cape Town,Simon's Town,15:06,ASCPTSMT1
+0187,MF,Cape Town,Retreat,15:23,ASCPTRTT1
+0189,MF,Cape Town,Fish Hoek,15:36,ASCPTFHK1
+0191,MF,Cape Town,Simon's Town,15:50,ASCPTSMT1
+0193,MF,Cape Town,Retreat,16:00,ASCPTRTT1
+0195,MF,Cape Town,Fish Hoek,16:12,ASCPTFHK2
+0197,MF,Cape Town,Fish Hoek,16:18,ASCPTFHK1
+0199,MF,Cape Town,Simon's Town,16:24,ASCPTSMT1
+0201,MF,Cape Town,Fish Hoek,16:32,ASCPTFHK1
+0203,MF,Cape Town,Fish Hoek,16:43,ASCPTFHK1
+0205,MF,Cape Town,Fish Hoek,16:56,ASCPTFHK1
+0207,MF,Cape Town,Simon's Town,17:02,ASCPTSMT1
+0209,MF,Cape Town,Simon's Town,17:15,ASCPTSMT2
+0211,MF,Cape Town,Fish Hoek,17:21,ASCPTFHK1
+0213,MF,Cape Town,Fish Hoek,17:33,ASCPTFHK1
+0215,MF,Cape Town,Retreat,17:40,ASCPTRTT1
+0217,MF,Cape Town,Simon's Town,17:48,ASCPTSMT1
+0219,MF,Cape Town,Retreat,17:59,ASCPTRTT1
+0221,MF,Cape Town,Fish Hoek,18:14,ASCPTFHK1
+0223,MF,Cape Town,Simon's Town,18:26,ASCPTSMT1
+0225,MF,Cape Town,Fish Hoek,18:40,ASCPTFHK1
+0227,MF,Cape Town,Simon's Town,18:58,ASCPTSMT1
+0229,MF,Cape Town,Simon's Town,19:30,ASCPTSMT1
+0231,MF,Cape Town,Retreat,20:05,ASCPTRTT1
+0233,MF,Cape Town,Simon's Town,20:30,ASCPTSMT1
+0235,MF,Cape Town,Simon's Town,21:15,ASCPTSMT1
+0101,SAT,Retreat,Simon's Town,05:23,ASRTTSMT1
+0103,SAT,Cape Town,Simon's Town,05:20,ASCPTSMT1
+0105,SAT,Cape Town,Fish Hoek,05:42,ASCPTFHK1
+0107,SAT,Cape Town,Simon's Town,05:55,ASCPTSMT1
+0109,SAT,Cape Town,Fish Hoek,06:15,ASCPTFHK1
+0111,SAT,Cape Town,Simon's Town,06:30,ASCPTSMT1
+0113,SAT,Cape Town,Fish Hoek,06:52,ASCPTFHK1
+0115,SAT,Cape Town,Simon's Town,07:18,ASCPTSMT1
+0117,SAT,Cape Town,Fish Hoek,07:38,ASCPTFHK1
+0119,SAT,Cape Town,Simon's Town,07:55,ASCPTSMT1
+0121,SAT,Cape Town,Fish Hoek,08:20,ASCPTFHK1
+0123,SAT,Cape Town,Simon's Town,08:47,ASCPTSMT1
+0127,SAT,Cape Town,Simon's Town,09:38,ASCPTSMT1
+0131,SAT,Cape Town,Simon's Town,10:28,ASCPTSMT1
+0135,SAT,Cape Town,Simon's Town,11:20,ASCPTSMT1
+0137,SAT,Cape Town,Fish Hoek,11:45,ASCPTFHK1
+0139,SAT,Cape Town,Simon's Town,12:05,ASCPTSMT1
+0141,SAT,Cape Town,Fish Hoek,12:30,ASCPTFHK1
+0143,SAT,Cape Town,Fish Hoek,13:00,ASCPTFHK1
+0145,SAT,Cape Town,Simon's Town,13:16,ASCPTSMT1
+0149,SAT,Cape Town,Simon's Town,14:04,ASCPTSMT1
+0153,SAT,Cape Town,Simon's Town,14:55,ASCPTSMT1
+0155,SAT,Cape Town,Simon's Town,15:36,ASCPTSMT1
+0157,SAT,Cape Town,Retreat,16:00,ASCPTRTT1
+0159,SAT,Cape Town,Simon's Town,16:18,ASCPTSMT1
+0163,SAT,Cape Town,Simon's Town,17:13,ASCPTSMT1
+0165,SAT,Cape Town,Simon's Town,18:02,ASCPTSMT1
+0167,SAT,Cape Town,Simon's Town,18:46,ASCPTSMT1
+0101,SUNPUB,Cape Town,Simon's Town,05:50,ASCPTSMT1
+0103,SUNPUB,Cape Town,Simon's Town,06:34,ASCPTSMT1
+0105,SUNPUB,Cape Town,Simon's Town,07:37,ASCPTSMT1
+0107,SUNPUB,Cape Town,Fish Hoek,08:05,ASCPTFHK1
+0109,SUNPUB,Cape Town,Simon's Town,08:30,ASCPTSMT1
+0111,SUNPUB,Cape Town,Simon's Town,09:23,ASCPTSMT1
+0115,SUNPUB,Cape Town,Simon's Town,10:35,ASCPTSMT1
+0117,SUNPUB,Cape Town,Simon's Town,11:25,ASCPTSMT1
+0119,SUNPUB,Cape Town,Simon's Town,12:23,ASCPTSMT1
+0121,SUN,Cape Town,Simon's Town,13:32,ASCPTSMT1
+0123,SUN,Cape Town,Simon's Town,14:45,ASCPTSMT1
+0125,SUN,Cape Town,Simon's Town,15:30,ASCPTSMT1
+0129,SUN,Cape Town,Simon's Town,16:16,ASCPTSMT1
+0131,SUN,Cape Town,Simon's Town,16:52,ASCPTSMT1
+0133,SUN,Cape Town,Simon's Town,17:38,ASCPTSMT1
+0135,SUN,Cape Town,Simon's Town,18:41,ASCPTSMT1
+0137,SUN,Cape Town,Simon's Town,19:42,ASCPTSMT1
+0102,MF,Simon's Town,Cape Town,04:20,ASSMTCPT1
+0104,MF,Retreat,Cape Town,05:20,ASRTTCPT1
+0106,MF,Simon's Town,Cape Town,05:11,ASSMTCPT1
+0108,MF,Fish Hoek,Cape Town,05:35,ASFHKCPT1
+0110,MF,Retreat,Cape Town,06:00,ASRTTCPT1
+0112,MF,Simon's Town,Cape Town,05:40,ASSMTCPT2
+0114,MF,Retreat,Cape Town,06:18,ASRTTCPT1
+0116,MF,Fish Hoek,Cape Town,06:10,ASFHKCPT1
+0118,MF,Retreat,Cape Town,06:36,ASRTTCPT1
+0120,MF,Plumstead,Cape Town,06:51,ASPSDCPT1
+0122,MF,Fish Hoek,Cape Town,06:31,ASFHKCPT1
+0124,MF,Simon's Town,Cape Town,06:30,ASSMTCPT3
+0126,MF,Retreat,Cape Town,07:07,ASRTTCPT1
+0128,MF,Fish Hoek,Cape Town,06:55,ASFHKCPT1
+0130,MF,Plumstead,Cape Town,07:28,ASPSDCPT1
+0132,MF,Fish Hoek,Cape Town,07:10,ASFHKCPT1
+0134,MF,Simon's Town,Cape Town,07:08,ASSMTCPT1
+0136,MF,Fish Hoek,Cape Town,07:27,ASFHKCPT1
+0138,MF,Retreat,Cape Town,07:54,ASRTTCPT1
+0140,MF,Fish Hoek,Cape Town,07:40,ASFHKCPT1
+0142,MF,Fish Hoek,Cape Town,07:50,ASFHKCPT1
+0144,MF,Simon's Town,Cape Town,07:46,ASSMTCPT1
+0146,MF,Retreat,Cape Town,08:22,ASRTTCPT1
+0148,MF,Retreat,Cape Town,08:32,ASRTTCPT1
+0150,MF,Fish Hoek,Cape Town,08:22,ASFHKCPT1
+0152,MF,Simon's Town,Cape Town,08:19,ASSMTCPT1
+0154,MF,Fish Hoek,Cape Town,08:49,ASFHKCPT1
+0156,MF,Simon's Town,Cape Town,08:54,ASSMTCPT1
+0158,MF,Fish Hoek,Cape Town,09:17,ASFHKCPT1
+0160,MF,Fish Hoek,Cape Town,09:29,ASFHKCPT1
+0162,MF,Simon's Town,Cape Town,09:28,ASSMTCPT1
+0166,MF,Simon's Town,Cape Town,10:02,ASSMTCPT1
+0168,MF,Fish Hoek,Cape Town,10:40,ASFHKCPT1
+0170,MF,Simon's Town,Cape Town,10:52,ASSMTCPT1
+0174,MF,Simon's Town,Cape Town,11:43,ASSMTCPT1
+0176,MF,Fish Hoek,Cape Town,12:21,ASFHKCPT1
+0178,MF,Simon's Town,Cape Town,12:42,ASSMTCPT1
+0182,MF,Simon's Town,Cape Town,13:20,ASSMTCPT1
+0184,MF,Fish Hoek,Cape Town,13:50,ASFHKCPT1
+0186,MF,Simon's Town,Cape Town,14:00,ASSMTCPT1
+0190,MF,Simon's Town,Cape Town,14:40,ASSMTCPT1
+0192,MF,Fish Hoek,Cape Town,15:05,ASFHKCPT1
+0194,MF,Retreat,Cape Town,15:32,ASRTTCPT1
+0196,MF,Fish Hoek,Cape Town,15:20,ASFHKCPT1
+0198,MF,Simon's Town,Cape Town,15:18,ASSMTCPT1
+0200,MF,Fish Hoek,Cape Town     ,15:40,ASFHKCPT1
+0202,MF,Retreat,Cape Town,16:12,ASRTTCPT1
+0204,MF,Simon's Town,Cape Town,15:56,ASSMTCPT1
+0206,MF,Fish Hoek,Cape Town,16:20,ASFHKCPT1
+0208,MF,Retreat,Cape Town,16:49,ASRTTCPT1
+0210,MF,Simon's Town,Cape Town,16:30,ASSMTCPT1
+0212,MF,Fish Hoek,Cape Town,16:55,ASFHKCPT1
+0214,MF,Fish Hoek,Cape Town,17:10,ASFHKCPT1
+0216,MF,Simon's Town,Cape Town,17:09,ASSMTCPT1
+0218,MF,Fish Hoek,Cape Town,17:27,ASFHKCPT1
+0220,MF,Fish Hoek,Cape Town,17:38,ASFHKCPT1
+0222,MF,Fish Hoek,Cape Town,17:50,ASFHKCPT1
+0224,MF,Simon's Town,Cape Town,17:48,ASSMTCPT1
+0226,MF,Fish Hoek,Cape Town,18:12,ASFHKCPT1
+0228,MF,Simon's Town,Cape Town,18:25,ASSMTCPT1
+0230,MF,Simon's Town,Cape Town,19:11,ASSMTCPT1
+0232,MF,Simon's Town,Cape Town,19:43,ASSMTCPT1
+0100,SAT,Simon's Town,Cape Town,04:25,ASSMTCPT1
+0102,SAT,Simon's Town,Cape Town,05:28,ASSMTCPT1
+0104,SAT,Fish Hoek,Cape Town,05:58,ASFHKCPT1
+0106,SAT,Simon's Town,Cape Town,06:04,ASSMTCPT1
+0108,SAT,Fish Hoek,Cape Town,06:31,ASFHKCPT1
+0110,SAT,Simon's Town,Cape Town,06:40,ASSMTCPT1
+0112,SAT,Fish Hoek,Cape Town,07:05,ASFHKCPT1
+0114,SAT,Simon's Town,Cape Town,07:13,ASSMTCPT1
+0116,SAT,Fish Hoek,Cape Town,07:40,ASFHKCPT1
+0118,SAT,Simon's Town,Cape Town,07:50,ASSMTCPT1
+0120,SAT,Fish Hoek,Cape Town,08:19,ASFHKCPT1
+0122,SAT,Simon's Town,Cape Town,08:37,ASSMTCPT1
+0124,SAT,Fish Hoek,Cape Town,09:08,ASFHKCPT1
+0126,SAT,Simon's Town,Cape Town,09:19,ASSMTCPT1
+0128,SAT,Fish Hoek,Cape Town,09:56,ASFHKCPT1
+0130,SAT,Simon's Town,Cape Town,10:10,ASSMTCPT1
+0134,SAT,Simon's Town,Cape Town,10:58,ASSMTCPT2
+0138,SAT,Simon's Town,Cape Town,11:50,ASSMTCPT1
+0142,SAT,Simon's Town,Cape Town,12:38,ASSMTCPT1
+0144,SAT,Fish Hoek,Cape Town,13:15,ASFHKCPT1
+0146,SAT,Fish Hoek,Cape Town,13:43,ASFHKCPT1
+0148,SAT,Simon's Town,Cape Town,13:58,ASSMTCPT1
+0150,SAT,Simon's Town,Cape Town,14:36,ASSMTCPT1
+0154,SAT,Simon's Town,Cape Town,15:25,ASSMTCPT1
+0158,SAT,Simon's Town,Cape Town,16:21,ASSMTCPT1
+0160,SAT,Simon's Town,Cape Town,17:14,ASSMTCPT1
+0164,SAT,Simon's Town,Cape Town,17:57,ASSMTCPT1
+0166,SAT,Simon's Town,Cape Town,18:45,ASSMTCPT1
+0102,SUNPUB,Simon's Town,Cape Town,04:24,ASSMTCPT1
+0104,SUNPUB,Simon's Town,Cape Town,05:24,ASSMTCPT1
+0106,SUNPUB,Simon's Town,Cape Town,06:22,ASSMTCPT1
+0108,SUNPUB,Simon's Town,Cape Town,07:18,ASSMTCPT1
+0110,SUNPUB,Simon's Town,Cape Town,08:17,ASSMTCPT1
+0112,SUNPUB,Simon's Town,Cape Town,09:04,ASSMTCPT1
+0116,SUNPUB,Simon's Town,Cape Town,09:55,ASSMTCPT1
+0118,SUNPUB,Simon's Town,Cape Town,10:42,ASSMTCPT1
+0120,SUNPUB,Simon's Town,Cape Town     ,11:53,ASSMTCPT1
+0122,SUNPUB,Simon's Town,Cape Town,13:00,ASSMTCPT1
+0124,SUNPUB,Simon's Town,Cape Town,13:41,ASSMTCPT1
+0126,SUNPUB,Simon's Town,Cape Town,14:54,ASSMTCPT1
+0128,SUNPUB,Simon's Town,Cape Town,16:02,ASSMTCPT1
+0132,SUNPUB,Simon's Town,Cape Town,16:54,ASSMTCPT1
+0134,SUNPUB,Simon's Town,Cape Town,17:36,ASSMTCPT1
+0136,SUNPUB,Simon's Town,Cape Town,18:55,ASSMTCPT1
+0501,MF,Cape Town,Heathfield,05:02,ASCPTHFD1
+0503,MF,Cape Town,Heathfield,05:20,ASCPTHFD1
+0505,MF,Cape Town,Heathfield,05:34,ASCPTHFD1
+0507,MF,Cape Town,Heathfield,05:50,ASCPTHFD1
+0509,MF,Cape Town,Heathfield,06:05,ASCPTHFD1
+0511,MF,Cape Town,Retreat,06:12,ASCPTRTT2
+0513,MF,Cape Town,Heathfield,06:21,ASCPTHFD1
+0515,MF,Cape Town,Heathfield,06:37,ASCPTHFD1
+0517,MF,Cape Town,Heathfield,06:54,ASCPTHFD1
+0519,MF,Cape Town,Heathfield,07:10,ASCPTHFD1
+0521,MF,Cape Town,Heathfield,07:26,ASCPTHFD1
+0523,MF,Cape Town,Heathfield,07:38,ASCPTHFD1
+0525,MF,Cape Town,Heathfield,07:57,ASCPTHFD1
+0527,MF,Cape Town,Retreat,08:29,ASCPTRTT2
+0529,MF,Cape Town,Retreat,09:03,ASCPTRTT2
+0531,MF,Cape Town,Retreat,09:50,ASCPTRTT2
+0533,MF,Cape Town,Retreat,10:37,ASCPTRTT2
+0535,MF,Cape Town,Retreat,11:30,ASCPTRTT2
+0537,MF,Cape Town,Retreat,12:25,ASCPTRTT2
+0539,MF,Cape Town,Retreat,13:05,ASCPTRTT2
+0541,MF,Cape Town,Retreat,13:35,ASCPTRTT2
+0543,MF,Cape Town,Retreat,14:00,ASCPTRTT2
+0545,MF,Cape Town,Retreat,14:30,ASCPTRTT2
+0547,MF,Cape Town,Heathfield,14:58,ASCPTHFD1
+0549,MF,Cape Town,Heathfield,15:08,ASCPTHFD1
+0551,MF,Cape Town,Heathfield,15:30,ASCPTHFD1
+0553,MF,Cape Town,Heathfield,15:50,ASCPTHFD1
+0555,MF,Cape Town,Heathfield,16:11,ASCPTHFD1
+0557,MF,Cape Town,Heathfield,16:22,ASCPTHFD1
+0559,MF,Cape Town,Heathfield,16:34,ASCPTHFD1
+0561,MF,Cape Town,Heathfield,16:46,ASCPTHFD1
+0563,MF,Cape Town,Retreat,16:57,ASCPTRTT2
+0565,SAT,Cape Town,Heathfield,17:14,ASCPTHFD1
+0567,SAT,Cape Town,Heathfield,17:26,ASCPTHFD1
+0569,SAT,Cape Town,Heathfield,17:40,ASCPTHFD1
+0571,SAT,Cape Town,Heathfield,17:56,ASCPTHFD1
+0573,SAT,Cape Town,Heathfield,18:15,ASCPTHFD1
+0575,SAT,Cape Town,Retreat,18:50,ASCPTRTT2
+0577,SAT,Cape Town,Retreat,19:22,ASCPTRTT2
+0501,SAT,Cape Town,Retreat,05:10,ASCPTRTT2
+0503,SAT,Cape Town,Retreat,06:06,ASCPTRTT2
+0505,SAT,Cape Town,Retreat,06:38,ASCPTRTT2
+0507,SAT,Cape Town,Retreat,07:10,ASCPTRTT2
+0509,SAT,Cape Town,Retreat,07:45,ASCPTRTT2
+0511,SAT,Cape Town,Retreat,08:37,ASCPTRTT2
+0513,SAT,Cape Town,Retreat,09:25,ASCPTRTT2
+0515,SAT,Cape Town,Retreat,10:15,ASCPTRTT2
+0517,SAT,Cape Town,Retreat,11:06,ASCPTRTT2
+0519,SAT,Cape Town,Retreat,11:55,ASCPTRTT2
+0523,SAT,Cape Town,Retreat,12:48,ASCPTRTT2
+0525,SAT,Cape Town,Retreat,13:20,ASCPTRTT2
+0527,SAT,Cape Town,Retreat,14:13,ASCPTRTT2
+0531,SAT,Cape Town,Retreat,15:30,ASCPTRTT2
+0533,SAT,Cape Town,Retreat,16:05,ASCPTRTT2
+0535,SAT,Cape Town,Retreat,16:58,ASCPTRTT2
+0537,SAT,Cape Town,Retreat,17:50,ASCPTRTT2
+0539,SAT,Cape Town,Retreat,18:30,ASCPTRTT2
+0501,SUN,Cape Town,Retreat,06:26,ASCPTRTT2
+0503,SUN,Cape Town,Retreat,07:31,ASCPTRTT2
+0505,SUN,Cape Town,Retreat,08:50,ASCPTRTT2
+0507,SUN,Cape Town,Retreat,10:30,ASCPTRTT2
+0509,SUN,Cape Town,Retreat,12:06,ASCPTRTT2
+0511,SUN,Cape Town,Retreat,13:23,ASCPTRTT2
+0513,SUN,Cape Town,Retreat,14:40,ASCPTRTT2
+0515,SUN,Cape Town,Retreat,16:03,ASCPTRTT2
+0517,SUN,Cape Town,Retreat,17:20,ASCPTRTT2
+0519,SUN,Cape Town,Retreat,18:25,ASCPTRTT2
+0521,SUN,Cape Town,Retreat,19:30,ASCPTRTT2
+0500,MF,Retreat,Cape Town,04:57,ASRTTCPT2
+0502,MF,Retreat,Cape Town,05:31,ASRTTCPT2
+0504,MF,Heathfield,Cape Town,05:50,ASHFDCPT1
+0506,MF,Heathfield,Cape Town,06:07,ASHFDCPT1
+0508,MF,Heathfield,Cape Town,06:23,ASHFDCPT1
+0510,MF,Heathfield,Cape Town,06:38,ASHFDCPT1
+0512,MF,Heathfield,Cape Town,06:51,ASHFDCPT1
+0514,MF,Heathfield,Cape Town,07:08,ASHFDCPT1
+0516,MF,Heathfield,Cape Town,07:23,ASHFDCPT1
+0518,MF,Heathfield,Cape Town,07:42,ASHFDCPT1
+0520,MF,Heathfield,Cape Town,07:57,ASHFDCPT1
+0522,MF,Heathfield,Cape Town,08:12,ASHFDCPT1
+0524,MF,Heathfield,Cape Town,08:30,ASHFDCPT1
+0526,MF,Heathfield,Cape Town,08:50,ASHFDCPT1
+0528,MF,Retreat,Cape Town,09:21,ASRTTCPT2
+0530,MF,Retreat,Cape Town,09:54,ASRTTCPT2
+0532,MF,Retreat,Cape Town,10:38,ASRTTCPT2
+0534,MF,Retreat,Cape Town,11:30,ASRTTCPT2
+0536,MF,Retreat,Cape Town,12:20,ASRTTCPT2
+0538,MF,Retreat,Cape Town,13:20,ASRTTCPT2
+0540,MF,Retreat,Cape Town,14:00,ASRTTCPT2
+0542,MF,Retreat,Cape Town,14:25,ASRTTCPT2
+0544,MF,Retreat,Cape Town,14:56,ASRTTCPT2
+0546,MF,Retreat,Cape Town,15:20,ASRTTCPT2
+0548,MF,Heathfield,Cape Town,15:44,ASHFDCPT1
+0550,MF,Heathfield,Cape Town,15:56,ASHFDCPT1
+0552,MF,Heathfield,Cape Town,16:20,ASHFDCPT1
+0554,MF,Heathfield,Cape Town,16:38,ASHFDCPT1
+0556,MF,Heathfield,Cape Town,16:58,ASHFDCPT1
+0558,MF,Heathfield,Cape Town,17:08 ,ASHFDCPT1
+0560,MF,Heathfield,Cape Town,17:21,ASHFDCPT1
+0562,MF,Heathfield,Cape Town,17:37,ASHFDCPT1
+0564,MF,Retreat,Cape Town,17:48,ASRTTCPT2
+0566,MF,Heathfield,Cape Town,18:00,ASHFDCPT1
+0568,MF,Heathfield,Cape Town,18:13,ASHFDCPT1
+0570,MF,Heathfield,Cape Town,18:28,ASHFDCPT1
+0572,MF,Heathfield,Cape Town,18:41,ASHFDCPT1
+0574,MF,Heathfield,Cape Town,19:06,ASHFDCPT1
+0576,MF,Retreat,Cape Town     ,19:48,ASRTTCPT2
+0500,SAT,Retreat,Cape Town,05:02,ASRTTCPT2
+0502,SAT,Retreat,Cape Town,06:07,ASRTTCPT2
+0504,SAT,Retreat,Cape Town,06:25,ASRTTCPT2
+0506,SAT,Retreat,Cape Town,06:59,ASRTTCPT2
+0508,SAT,Retreat,Cape Town,07:35,ASRTTCPT2
+0510,SAT,Retreat,Cape Town,08:10,ASRTTCPT2
+0512,SAT,Retreat,Cape Town,08:45,ASRTTCPT2
+0514,SAT,Retreat,Cape Town,09:35,ASRTTCPT2
+0516,SAT,Retreat,Cape Town,10:25,ASRTTCPT2
+0518,SAT,Retreat,Cape Town,11:15,ASRTTCPT2
+0520,SAT,Retreat,Cape Town,12:08,ASRTTCPT2
+0522,SAT,Retreat,Cape Town,12:54,ASRTTCPT2
+0526,SAT,Retreat,Cape Town,13:45,ASRTTCPT2
+0528,SAT,Retreat,Cape Town,14:37,ASRTTCPT2
+0530,SAT,Retreat,Cape Town,15:13,ASRTTCPT2
+0534,SAT,Retreat,Cape Town,16:20,ASRTTCPT2
+0536,SAT,Retreat,Cape Town,17:00,ASRTTCPT2
+0538,SAT,Retreat,Cape Town,17:55,ASRTTCPT2
+0502,SUNPUB,Retreat,Cape Town,05:00,ASRTTCPT2
+0504,SUNPUB,Retreat,Cape Town,06:00,ASRTTCPT2
+0506,SUNPUB,Retreat,Cape Town,07:18,ASRTTCPT2
+0508,SUNPUB,Retreat,Cape Town,08:19,ASRTTCPT2
+0510,SUNPUB,Retreat,Cape Town,09:40,ASRTTCPT2
+0512,SUNPUB,Retreat,Cape Town,11:18,ASRTTCPT2
+0514,SUNPUB,Retreat,Cape Town,13:05,ASRTTCPT2
+0516,SUNPUB,Retreat,Cape Town,14:17,ASRTTCPT2
+0518,SUNPUB,Retreat,Cape Town,15:30,ASRTTCPT2
+0520,SUNPUB,Retreat,Cape Town,17:00,ASRTTCPT2
+0522,SUNPUB,Retreat,Cape Town,18:20,ASRTTCPT2
