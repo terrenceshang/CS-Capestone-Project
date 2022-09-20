@@ -92,7 +92,7 @@ Dal Josafat,Huguenot,4
 Huguenot,Paarl,5
 Paarl,Klapmuts,10
 Klapmuts,Muldersvlei,6
-Muldesvlei,Kraaifontein,11
+Muldersvlei,Kraaifontein,11
 
 Dal Josafat,Muldersvlei,22
 Kraaifontein,Stikland,13
