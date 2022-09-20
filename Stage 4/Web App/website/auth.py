@@ -3,13 +3,7 @@ from .models import User
 from werkzeug.security import generate_password_hash, check_password_hash
 from . import db
 from flask_login import login_user, login_required, logout_user, current_user
-#import pyodbc
-#conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=.\db.accdb;')
-#cursor = conn.cursor()
-#cursor.execute('select * from User')
-   
-#for row in cursor.fetchall():
-#    print (row)
+
 
 auth = Blueprint('auth', __name__)
 

@@ -1,0 +1,128 @@
+Cape Town,CSN
+Woodstock,CSN
+Salt River,CN
+Koeberg Rd,CS
+Maitland,CS
+Ndabeni,CS
+Pinelands,CS
+Mutual,CN
+Ysterplaat,CN
+Esplanade,CN
+Bellville,CN
+Langa,C
+Bonteheuwel,C
+Netreg,C
+Heideveld,C
+Nyanga,C
+Philippi,C
+Lentegeur A,C
+Lentegeur D,C
+Mitchell's Plain,C
+Kapteinsklip,C
+Stock Road,C
+Mandalay,C
+Nolungile,C
+Nonkqubela,C
+Khayelitsha,C
+Kuyasa,C
+Chris Hani,C
+Lavistown,C
+Belhar,C
+Unibell,C
+Pentech,C
+Sarepta,C
+Paardeneiland,C
+Woltemade,N
+Thornton,N
+Goodwood,N
+Vasco,N
+Elsies River,N
+Parow,N
+Tygerberg,N
+Kuils River,N
+Blackheath,N
+Meltonrose,N
+Eerste River,N
+Faure,N
+Firgrove,N
+Somerset West,N
+Van Der Stel,N
+Strand,N
+Lynedoch,N
+Vlottenburg,N
+Stellenbosch,N
+Du Toit,N
+Koelenhof,N
+Muldersvlei,N
+Stikland,N
+Brackenfell,N
+Eikenfontein,N
+Kraaifontein,N
+Muldersvlei,N
+Klapmuts,N
+Paarl,N
+Huguenot,N
+Dal Josafat,N
+Mbekweni,N
+Wellington,N
+Kentemade,N
+Century City,N
+Akasia Park,N
+Monte Vista,N
+De Grendel,N
+Avondale,N
+Oosterzee,N
+Fisantkraal,N
+Mellish,N
+Mikpunt,N
+Klipheuwel,N
+Wintevogel,N
+Kalbaskraal,N
+Abbotsdale,N
+Malmesbury,N
+Malan,N
+Soetendal,N
+Hermon,N
+Voelvlei,N
+Gouda,N
+Tulbaghweg,N
+Artois,N
+Wolseley,N
+Romans River,N
+Bree River,N
+Botha,N
+Goudini Rd,N
+Chavonnes,N
+Worcester,N
+Simon's Town,S
+Glencairn,S
+Sunny Cove,S
+Fish Hoek,S
+Kalk Bay,S
+St James,S
+Muizenberg,S
+False Bay,S
+Lakeside,S
+Steenberg,S
+Retreat,S
+Heathfield,S
+Dieprivier,S
+Steurhof,S
+Plumstead,S
+Wittebome,S
+Wynberg,S
+Kenilworth,S
+Harfield Rd,S
+Claremont,S
+Newlands,S
+Rondebosch,S
+Rosebank,S
+Mowbray,S
+Observatory,S
+Southfield,S
+Ottery,S
+Wetton,S
+Lansdowne,S
+Crawford,S
+Athlone,S
+Hazendal,S
