@@ -16,8 +16,7 @@ Netreg,C
 Heideveld,C
 Nyanga,C
 Philippi,C
-Lentegeur A,C
-Lentegeur D,C
+Lentegeur,C
 Mitchell's Plain,C
 Kapteinsklip,C
 Stock Road,C
