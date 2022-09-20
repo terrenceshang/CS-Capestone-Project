@@ -1,6 +1,5 @@
-from turtle import tracer
 import pyodbc
-
+"""
 conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\Stage 4\\TrainSchedule.accdb;')
 file = open("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\ANBELWLT1.txt", "r")
 cursor = conn.cursor()
@@ -25,11 +24,12 @@ for line in file:
         print(sql)
         cursor.execute(sql)
         cursor.commit()
-
+file.close()
+cursor.close()
 
 
 #sql = "Update AreaNorth SET CTOtherRoute = '' WHERE DepartureLocation = 'Retreat' AND ArrivalLocation = 'Cape Town'"
-
+"""
 
 
 """
@@ -69,8 +69,7 @@ for line in file:
 
 
 
-file.close()
-cursor.close()
+
 
 """
 cursor.execute('select * from AreaCentral')
@@ -78,3 +77,15 @@ cursor.execute('select * from AreaCentral')
 for row in cursor.fetchall():
     print (row)
 """
+
+conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\Stage 4\\TrainSchedule.accdb;')
+cursor = conn.cursor()
+sql = "SELECT TrainNumber, WorkingTime, DepartureLocation, ArrivalLocation, TimeOfDeparture, Route FROM AreaCentral"
+cursor.execute(sql)
+myResult = cursor.fetchall()
+file = open ("C:\\Users\\Terrence Shang\\OneDrive - University of Cape Town\\Online Lecture\\CSC3003S\\Capstone Project\\CS-Capestone-Project\\Stage 4\\Backend\\Area Central.txt","w")
+for line in myResult:
+    output = ""
+    for value in line:
+        output = output + "," + value
+    file.write(output[1:] + "\n")
