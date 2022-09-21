@@ -2,9 +2,11 @@ from sre_constants import SUCCESS
 from flask import Blueprint, render_template, request, flash, jsonify, redirect, url_for
 from flask_login import login_required, current_user
 from .models import Station, User
-from . import db, stationNames, SearchRoute
+from . import db #, stationNames, SearchRoute
 import json
 import pyodbc
+import os
+#from . import sr
 
 views = Blueprint('views', __name__)
 
@@ -32,8 +34,12 @@ def home():
             flash('Invalid day!', category='error')
         elif (departureTime == ""):
             flash('Time not selected!', category='error')
+        elif (departureStation == destinationStation):
+            flash('You are already at ' + departureStation, category = 'error')
         else:
-            trainsToTake = ['M','B','C']
+            #trainsToTake = sr.search(departureStation, destinationStation, day)
+            for t in trainsToTake:
+                print(t)
             return redirect(url_for('views.result'))
 
     return render_template("home.html", user = current_user, stations = stations, days = days)
