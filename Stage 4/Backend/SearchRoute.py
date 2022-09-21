@@ -9,7 +9,6 @@
 # The output will the the list shown above
 import math
 import os
-from re import template
 import pyodbc
 import Functions as FCT
 
