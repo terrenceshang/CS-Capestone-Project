@@ -218,7 +218,7 @@ Muldersvlei,Kraaifontein,11
 Parow,Bellville,5
 Dal Josafat,Kraaifontein,22
 Mutual,Kuils River,20
-Mutual,Stikland,21
+Mutual,Stikland,16
 Bellville,Parow,6
 Stikland,Mutual,18
 Kuils River,Mutual,21

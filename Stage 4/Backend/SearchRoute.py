@@ -137,7 +137,7 @@ def searchAllRoute (start, end, day):
         return (lstIntersectingStations)
 
 def main():
-    list = search("Brackenfell","Kraaifontein","Monday") 
+    list = search("Cape Town","Stikland","Monday") 
 
     for line in list:
         print(line)
