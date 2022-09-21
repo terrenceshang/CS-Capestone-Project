@@ -9,7 +9,6 @@
 # The output will the the list shown above
 import math
 import os
-import pyodbc
 import Functions as FCT
 
 def search (start, end, day):
@@ -104,8 +103,8 @@ def searchAllRoute (start, end, day):
 
             myresult = FCT.updateMyresult(myresult,tempList,lstDuration,lstDurationBeginning)
             return myresult 
-        #else: Same line, different route
-        else:
+        
+        else: #Same eline, 2 trains
             lstANChange = ["Ysterplaat", "Mutual", "Bellville", "Kraaifontein", "Muldersvlei", "Wellington"]
             lstASChange = ["Salt River", "Retreat"]
             lstACChange = ["Phillipi", "Bontheuwel"]

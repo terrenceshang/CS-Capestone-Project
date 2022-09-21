@@ -35,9 +35,9 @@ def fileToLst(txtName):
 def getKeyword(start,end,route):
     tempList=[]
     for line in route:
-            if start in line and end in line:
-                if line.index(start)<line.index(end): #This is to check if start is before end
-                    tempList.append(line[0])
+        if start in line and end in line:
+            if line.index(start)<line.index(end): #This is to check if start is before end
+                tempList.append(line[0])
     return tempList
 
 #Getting the route from start to end

@@ -2,6 +2,7 @@ from array import array
 from audioop import reverse
 import sys
 from turtle import st
+import os
  
 class Graph(object):
     def __init__(self, nodes, init_graph):
@@ -100,47 +101,48 @@ def print_result(previous_nodes, shortest_path, start_node, target_node):
     strPath = ",".join(reversed(path))
     arrPath = strPath.split(",")
 
+    #print ("Hello " + arrPath) 
     return arrPath
 
 def main():
 
-    file = open("C:\\Users\\Erin\\Documents\\2. CSC3003S\\Project\\Backend\\Area North Duration.txt", "r")
+    file = open(os.path.dirname(os.path.realpath(__file__)) + "\\Duration\\Area North Duration.txt", "r")
     lstANDuration = []    
     for line in file:        
         lstANDuration.append ((line[:-1].split(",")))        
     file.close()
     
-    file = open ("C:\\Users\\Erin\\Documents\\2. CSC3003S\\Project\\Backend\\Area Central Duration.txt", "r")
+    file = open (os.path.dirname(os.path.realpath(__file__)) + "\\Duration\\Area Central Duration.txt", "r")
     lstACDuration = []
     for line in file:
         lstACDuration.append ((line[:-1].split(",")))
     file.close()
 
-    file = open ("C:\\Users\\Erin\\Documents\\2. CSC3003S\\Project\\Backend\\Area South Duration.txt", "r")
+    file = open (os.path.dirname(os.path.realpath(__file__)) + "\\Duration\\Area South Duration.txt", "r")
     lstASDuration = []
     for line in file:
         lstASDuration.append ((line[:-1].split(",")))
     file.close()
 
-    file = open("C:\\Users\\Erin\\Documents\\2. CSC3003S\\Project\\Backend\\Area North Train Route.txt", "r")
+    file = open(os.path.dirname(os.path.realpath(__file__)) + "\\Duration\\Area North Train Route.txt", "r")
     lstANRoute = []    
     for line in file:        
         lstANRoute.append ((line[:-1].split(",")))        
     file.close()
 
-    file = open("C:\\Users\\Erin\\Documents\\2. CSC3003S\\Project\\Backend\\Area Central Train Route.txt", "r")
+    file = open(os.path.dirname(os.path.realpath(__file__)) + "\\Duration\\Area Central Train Route.txt", "r")
     lstACRoute = []    
     for line in file:        
         lstACRoute.append ((line[:-1].split(",")))        
     file.close()
 
-    file = open("C:\\Users\\Erin\\Documents\\2. CSC3003S\\Project\\Backend\\Area South Train Route.txt", "r")
+    file = open(os.path.dirname(os.path.realpath(__file__)) + "\\Duration\\Area South Train Route.txt", "r")
     lstASRoute = []    
     for line in file:        
         lstASRoute.append ((line[:-1].split(",")))        
     file.close()
 
-    file = open ("C:\\Users\\Erin\\Documents\\2. CSC3003S\\Project\\Backend\\Station.txt", "r")
+    file = open (os.path.dirname(os.path.realpath(__file__)) + "\\Duration\\Station.txt", "r")
     lstStation = []   
     StationsArea = {}
     for line in file:
@@ -184,7 +186,6 @@ def main():
         previous_nodes, shortest_path = dijkstra_algorithm(graph=graph, start_node="Chris Hani")
         arrPath = print_result(previous_nodes, shortest_path, start_node="Chris Hani", target_node="Langa")
         
-
         bArea = False
         for i in arrPath:        
             if bArea == False:
@@ -192,7 +193,6 @@ def main():
                     area = StationsArea[i]
                     bArea = True
                 
-        
         route = []
         if area == "C":
             route = lstACRoute
@@ -200,7 +200,6 @@ def main():
             route = lstANRoute
         else:
             route = lstASRoute
-        
         
         for lineRoute in route:
             for linePath in arrPath:
@@ -213,20 +212,13 @@ def main():
                             bPathFound = True                             
                             lineRoute = lineRoute[count:len(lineRoute)]
                             count = 0
-                            print(lineRoute)
                             break
                 else:
                     print("path found")
                     break
                 if bPathFound == False:
                     break
-                    
-
-
         found = True
-
-    
-
 
 if __name__ == "__main__":
     main()
