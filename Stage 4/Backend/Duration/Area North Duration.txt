@@ -11,14 +11,14 @@ Vasco,Elsies River,3
 Elsies River,Parow,3
 Parow,Tygerberg,2
 Tygerberg,Bellville,4
-Bellville,Kuils River,8
+Bellville,Kuils River,7
 Kuils River,Blackheath,5
 Blackheath,Meltonrose,4
 Meltonrose,Eerste River,3
 
 Eerste River,Faure,6
 Faure,Firgrove,6
-Firgrove,Somerset West,13
+Firgrove,Somerset West,6
 Somerset West,Van Der Stel,3
 Van Der Stel,Strand,5
 
@@ -94,8 +94,8 @@ Paarl,Klapmuts,10
 Klapmuts,Muldersvlei,6
 Muldersvlei,Kraaifontein,11
 
-Dal Josafat,Muldersvlei,22
-Kraaifontein,Stikland,13
+Dal Josafat,Muldersvlei,20
+Kraaifontein,Stikland,10
 Bellville,Parow,6
 Kraaifontein,Brackenfell,7
 Paarl,Kraaifontein,24

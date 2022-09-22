@@ -43,7 +43,7 @@ class Graph(object):
         return self.graph[node1][node2]
     
 def createGraph():
-    file = open("C:\\Users\\Erin\\Documents\\2. CSC3003S\\Project\\Backend\\Area North Duration.txt", "r")
+    file = open(os.path.dirname(os.path.realpath(__file__)) + "\\Duration\\Area North Duration.txt", "r")
     lstANDuration = []    
     for line in file:        
         lstANDuration.append ((line[:-1].split(",")))        
@@ -173,8 +173,8 @@ def print_result(previous_nodes, shortest_path, start_node, target_node):
     # Add the start node manually
     path.append(start_node)
     
-    print("We found the following best path with a value of {}.".format(shortest_path[target_node]))
-    print(" -> ".join(reversed(path)))
+    #print("We found the following best path with a value of {}.".format(shortest_path[target_node]))
+    #print(" -> ".join(reversed(path)))
 
     strPath = ",".join(reversed(path))
     arrPath = strPath.split(",")
@@ -230,14 +230,14 @@ def main():
                                 matches.append(routeName)
                             break
                 else:
-                    print("path found")
+                    #print("path found")
                     matches.append(routeName)
                     break
                 if bPathFound == False:
                     break
         found = True
         
-        print(matches)
+        #print(matches)
 
 if __name__ == "__main__":
     main()

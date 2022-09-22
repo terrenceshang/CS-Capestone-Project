@@ -10,6 +10,7 @@
 import math
 import os
 import Functions as FCT
+import Dijkstra as dk
 
 def search (start, end, day):
 
@@ -105,37 +106,119 @@ def searchAllRoute (start, end, day):
             return myresult 
         
         else: #Same eline, 2 trains
-            lstANChange = ["Ysterplaat", "Mutual", "Bellville", "Kraaifontein", "Muldersvlei", "Wellington"]
-            lstASChange = ["Salt River", "Retreat"]
-            lstACChange = ["Phillipi", "Bontheuwel"]
+            fastestRoute = dk.findRoute(start,end)
+            changeStation = ""
             
-            if trainLine == "AreaNorth":
-                for i in range (len(lstANChange)):
-                    lstChangeEndRoute = []
-                    lstStartChangeRoute = []
-                    lstDuration = []
-                    for line in lstANTrainRoute:
-                        if start in line and lstANChange[i] in line:
-                            if line.index(start)<line.index(lstANChange[i]):
-                                lstStartChangeRoute.append([line[0]])
-                        if end in line and lstANChange[i] in line:
-                            if line.index(lstANChange[i])<line.index(end):
-                                lstChangeEndRoute.append([line[0]])
-                    if (len(lstStartChangeRoute) == 0):
-                        lstStartChangeRoute.append(None)
-                    if (len(lstChangeEndRoute) == 0):
-                        lstChangeEndRoute.append(None)
-                    #if ()
-                    print(lstStartChangeRoute)
-                    print(lstChangeEndRoute)
-            return(["fdsafdsafdas"])
-    else: #Different line
-        lstIntersectingStations = FCT.getIntersectingStation(startLine,endLine)
-        
-        return (lstIntersectingStations)
+            if (trainLine == "AreaNorth"):
+                for i in range (1, len(fastestRoute)):
+                    if len(FCT.getKeyword(start,fastestRoute[i],lstANTrainRoute)) == 0:
+                        changeStation = fastestRoute[i-1]
+                        break
+                lstStartChangeKeyword = FCT.getKeyword(start, changeStation, lstANTrainRoute)
+                temp = FCT.getRoute(start, changeStation, lstStartChangeKeyword, lstANTrainRoute)
+                lstStartChangeBeginningRoute = temp[0]
+                lstStartChangeRoute = temp[1]
+                temp = FCT.getDuration(lstStartChangeBeginningRoute,lstStartChangeRoute,lstANDuration)
+                lstStartChangeDuration = temp[0]
+                lstStartChangeBeginningDuration = temp[1]
+                myresult1 = FCT.getMyresult(day,lstStartChangeKeyword,trainLine)
+                myresult1 = FCT.updateMyresult(myresult1,lstStartChangeKeyword,lstStartChangeBeginningDuration,lstStartChangeDuration)
+                
+                lstChangeEndKeyword = FCT.getKeyword(changeStation, end, lstANTrainRoute)
+                temp = FCT.getRoute(changeStation, end, lstChangeEndKeyword, lstANTrainRoute)
+                lstChangeEndBeginningRoute = temp[0]
+                lstChangeEndRoute = temp[1]
+                temp = FCT.getDuration(lstChangeEndBeginningRoute,lstChangeEndRoute,lstANDuration)
+                lstChangeEndDuration = temp[0]
+                lstChangeEndBeginningDuration = temp[1]
+                myresult2 = FCT.getMyresult(day,lstChangeEndKeyword,trainLine)
+                myresult2 = FCT.updateMyresult(myresult2,lstChangeEndKeyword,lstChangeEndBeginningDuration,lstChangeEndDuration)
+                
+                output = []
+                for i in range (len(myresult1)):
+                    num1 = int(myresult1[i][1][0:2]) * 60 + int(myresult1[i][1][3:5]) + int(myresult1[0][2])
+                    for j in range (len(myresult2)):
+                        num2 = int(myresult2[j][1][0:2]) * 60 + int(myresult2[j][1][3:5])
+                        if (num2 - num1 <= 30 and num2 - num1 >=15):
+                            output.append([myresult1[i][0],start,changeStation,myresult1[i][1],myresult1[i][2],myresult2[j][0],changeStation,end,myresult2[j][1],myresult2[j][2] ])
+                return output
+            
+            if (trainLine == "AreaSouth"):
+                for i in range (1, len(fastestRoute)):
+                    if len(FCT.getKeyword(start,fastestRoute[i],lstASTrainRoute)) == 0:
+                        changeStation = fastestRoute[i-1]
+                        break
+                lstStartChangeKeyword = FCT.getKeyword(start, changeStation, lstASTrainRoute)
+                temp = FCT.getRoute(start, changeStation, lstStartChangeKeyword, lstASTrainRoute)
+                lstStartChangeBeginningRoute = temp[0]
+                lstStartChangeRoute = temp[1]
+                temp = FCT.getDuration(lstStartChangeBeginningRoute,lstStartChangeRoute,lstASDuration)
+                lstStartChangeDuration = temp[0]
+                lstStartChangeBeginningDuration = temp[1]
+                myresult1 = FCT.getMyresult(day,lstStartChangeKeyword,trainLine)
+                myresult1 = FCT.updateMyresult(myresult1,lstStartChangeKeyword,lstStartChangeBeginningDuration,lstStartChangeDuration)
+                
+                lstChangeEndKeyword = FCT.getKeyword(changeStation, end, lstASTrainRoute)
+                temp = FCT.getRoute(changeStation, end, lstChangeEndKeyword, lstASTrainRoute)
+                lstChangeEndBeginningRoute = temp[0]
+                lstChangeEndRoute = temp[1]
+                temp = FCT.getDuration(lstChangeEndBeginningRoute,lstChangeEndRoute,lstASDuration)
+                lstChangeEndDuration = temp[0]
+                lstChangeEndBeginningDuration = temp[1]
+                myresult2 = FCT.getMyresult(day,lstChangeEndKeyword,trainLine)
+                myresult2 = FCT.updateMyresult(myresult2,lstChangeEndKeyword,lstChangeEndBeginningDuration,lstChangeEndDuration)
+                
+                output = []
+                for i in range (len(myresult1)):
+                    num1 = int(myresult1[i][1][0:2]) * 60 + int(myresult1[i][1][3:5]) + int(myresult1[0][2])
+                    for j in range (len(myresult2)):
+                        num2 = int(myresult2[j][1][0:2]) * 60 + int(myresult2[j][1][3:5])
+                        if (num2 - num1 <= 30 and num2 - num1 >=15):
+                            output.append([myresult1[i][0],start,changeStation,myresult1[i][1],myresult1[i][2],myresult2[j][0],changeStation,end,myresult2[j][1],myresult2[j][2] ])
+                return output
+            
+            if (trainLine == "AreaCentral"):
+                for i in range (1, len(fastestRoute)):
+                    if len(FCT.getKeyword(start,fastestRoute[i],lstACTrainRoute)) == 0:
+                        changeStation = fastestRoute[i-1]
+                        break
+                lstStartChangeKeyword = FCT.getKeyword(start, changeStation, lstACTrainRoute)
+                temp = FCT.getRoute(start, changeStation, lstStartChangeKeyword, lstACTrainRoute)
+                lstStartChangeBeginningRoute = temp[0]
+                lstStartChangeRoute = temp[1]
+                temp = FCT.getDuration(lstStartChangeBeginningRoute,lstStartChangeRoute,lstACDuration)
+                lstStartChangeDuration = temp[0]
+                lstStartChangeBeginningDuration = temp[1]
+                myresult1 = FCT.getMyresult(day,lstStartChangeKeyword,trainLine)
+                myresult1 = FCT.updateMyresult(myresult1,lstStartChangeKeyword,lstStartChangeBeginningDuration,lstStartChangeDuration)
+                
+                lstChangeEndKeyword = FCT.getKeyword(changeStation, end, lstACTrainRoute)
+                temp = FCT.getRoute(changeStation, end, lstChangeEndKeyword, lstACTrainRoute)
+                lstChangeEndBeginningRoute = temp[0]
+                lstChangeEndRoute = temp[1]
+                temp = FCT.getDuration(lstChangeEndBeginningRoute,lstChangeEndRoute,lstACDuration)
+                lstChangeEndDuration = temp[0]
+                lstChangeEndBeginningDuration = temp[1]
+                myresult2 = FCT.getMyresult(day,lstChangeEndKeyword,trainLine)
+                myresult2 = FCT.updateMyresult(myresult2,lstChangeEndKeyword,lstChangeEndBeginningDuration,lstChangeEndDuration)
 
+                output = []
+                for i in range (len(myresult1)):
+                    num1 = int(myresult1[i][1][0:2]) * 60 + int(myresult1[i][1][3:5]) + int(myresult1[0][2])
+                    for j in range (len(myresult2)):
+                        num2 = int(myresult2[j][1][0:2]) * 60 + int(myresult2[j][1][3:5])
+                        if (num2 - num1 <= 30 and num2 - num1 >=15):
+                            output.append([myresult1[i][0],start,changeStation,myresult1[i][1],myresult1[i][2],myresult2[j][0],changeStation,end,myresult2[j][1],myresult2[j][2] ])
+                return output
+
+    else: #Different line
+        
+        lstIntersectingStations = FCT.getIntersectingStation(startLine,endLine)
+
+        
+            
 def main():
-    list = search("Cape Town","Stikland","Monday") 
+    list = search("Kraaifontein","Strand","Monday") 
 
     for line in list:
         print(line)

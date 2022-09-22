@@ -9,7 +9,7 @@ Langa,Bonteheuwel,3
 Bonteheuwel,Netreg,4
 Netreg,Heideveld,3
 Heideveld,Nyanga,4
-Nyanga,Philippi,5
+Nyanga,Philippi,4
 Philippi,Lentegeur,5
 Lentegeur,Mitchell's Plain,4
 Mitchell's Plain,Kapteinsklip,3
