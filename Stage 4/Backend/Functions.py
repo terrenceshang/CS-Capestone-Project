@@ -2,7 +2,7 @@ import os
 import pyodbc
 #Finding the stations where student can change trains to get to a different line
 def getIntersectingStation (start, end):
-    lstTempIntersectingStations = [["Cape Town","CSN"],["Woodstock","CSN"],["Salt River","CN"],["Koeberg Rd","CS"],["Maitland","CS"],["Ndabeni","CS"],["Pinelands","CS"],["Mutual","CN"],["Ysterplaat","CN"],["Esplanade","CN"],["Bellville","CN"]]
+    lstTempIntersectingStations = [["Ndabeni","CS"],["Pinelands","CS"],["Mutual","CN"],["Ysterplaat","CN"],["Esplanade","CN"],["Bellville","CN"]]
     lstIntersectingStations = []
     for intersectingStations in lstTempIntersectingStations:
         if start in intersectingStations[1] and end in intersectingStations[1]:

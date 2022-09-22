@@ -11,6 +11,7 @@ import math
 import os
 import Functions as FCT
 import Dijkstra as dk
+import ShortestRoute as sr
 
 def search (start, end, day):
 
@@ -103,7 +104,13 @@ def searchAllRoute (start, end, day):
 #Changing the myresult from <Train number><Unique key><Duration> to <Train number><Start time><Duration>
 
             myresult = FCT.updateMyresult(myresult,tempList,lstDuration,lstDurationBeginning)
-            return myresult 
+           
+            output = []
+                
+            for i in range (len(myresult)):
+                
+                output.append([myresult[i][0],start,end,myresult[i][1],myresult[i][2]])
+            return output
         
         else: #Same eline, 2 trains
             fastestRoute = dk.findRoute(start,end)
@@ -114,33 +121,7 @@ def searchAllRoute (start, end, day):
                     if len(FCT.getKeyword(start,fastestRoute[i],lstANTrainRoute)) == 0:
                         changeStation = fastestRoute[i-1]
                         break
-                lstStartChangeKeyword = FCT.getKeyword(start, changeStation, lstANTrainRoute)
-                temp = FCT.getRoute(start, changeStation, lstStartChangeKeyword, lstANTrainRoute)
-                lstStartChangeBeginningRoute = temp[0]
-                lstStartChangeRoute = temp[1]
-                temp = FCT.getDuration(lstStartChangeBeginningRoute,lstStartChangeRoute,lstANDuration)
-                lstStartChangeDuration = temp[0]
-                lstStartChangeBeginningDuration = temp[1]
-                myresult1 = FCT.getMyresult(day,lstStartChangeKeyword,trainLine)
-                myresult1 = FCT.updateMyresult(myresult1,lstStartChangeKeyword,lstStartChangeBeginningDuration,lstStartChangeDuration)
-                
-                lstChangeEndKeyword = FCT.getKeyword(changeStation, end, lstANTrainRoute)
-                temp = FCT.getRoute(changeStation, end, lstChangeEndKeyword, lstANTrainRoute)
-                lstChangeEndBeginningRoute = temp[0]
-                lstChangeEndRoute = temp[1]
-                temp = FCT.getDuration(lstChangeEndBeginningRoute,lstChangeEndRoute,lstANDuration)
-                lstChangeEndDuration = temp[0]
-                lstChangeEndBeginningDuration = temp[1]
-                myresult2 = FCT.getMyresult(day,lstChangeEndKeyword,trainLine)
-                myresult2 = FCT.updateMyresult(myresult2,lstChangeEndKeyword,lstChangeEndBeginningDuration,lstChangeEndDuration)
-                
-                output = []
-                for i in range (len(myresult1)):
-                    num1 = int(myresult1[i][1][0:2]) * 60 + int(myresult1[i][1][3:5]) + int(myresult1[0][2])
-                    for j in range (len(myresult2)):
-                        num2 = int(myresult2[j][1][0:2]) * 60 + int(myresult2[j][1][3:5])
-                        if (num2 - num1 <= 30 and num2 - num1 >=15):
-                            output.append([myresult1[i][0],start,changeStation,myresult1[i][1],myresult1[i][2],myresult2[j][0],changeStation,end,myresult2[j][1],myresult2[j][2] ])
+                output = sr.calc(start,end,day,changeStation,trainLine,trainLine,lstANTrainRoute,lstANTrainRoute,lstANDuration,lstANDuration)
                 return output
             
             if (trainLine == "AreaSouth"):
@@ -148,33 +129,7 @@ def searchAllRoute (start, end, day):
                     if len(FCT.getKeyword(start,fastestRoute[i],lstASTrainRoute)) == 0:
                         changeStation = fastestRoute[i-1]
                         break
-                lstStartChangeKeyword = FCT.getKeyword(start, changeStation, lstASTrainRoute)
-                temp = FCT.getRoute(start, changeStation, lstStartChangeKeyword, lstASTrainRoute)
-                lstStartChangeBeginningRoute = temp[0]
-                lstStartChangeRoute = temp[1]
-                temp = FCT.getDuration(lstStartChangeBeginningRoute,lstStartChangeRoute,lstASDuration)
-                lstStartChangeDuration = temp[0]
-                lstStartChangeBeginningDuration = temp[1]
-                myresult1 = FCT.getMyresult(day,lstStartChangeKeyword,trainLine)
-                myresult1 = FCT.updateMyresult(myresult1,lstStartChangeKeyword,lstStartChangeBeginningDuration,lstStartChangeDuration)
-                
-                lstChangeEndKeyword = FCT.getKeyword(changeStation, end, lstASTrainRoute)
-                temp = FCT.getRoute(changeStation, end, lstChangeEndKeyword, lstASTrainRoute)
-                lstChangeEndBeginningRoute = temp[0]
-                lstChangeEndRoute = temp[1]
-                temp = FCT.getDuration(lstChangeEndBeginningRoute,lstChangeEndRoute,lstASDuration)
-                lstChangeEndDuration = temp[0]
-                lstChangeEndBeginningDuration = temp[1]
-                myresult2 = FCT.getMyresult(day,lstChangeEndKeyword,trainLine)
-                myresult2 = FCT.updateMyresult(myresult2,lstChangeEndKeyword,lstChangeEndBeginningDuration,lstChangeEndDuration)
-                
-                output = []
-                for i in range (len(myresult1)):
-                    num1 = int(myresult1[i][1][0:2]) * 60 + int(myresult1[i][1][3:5]) + int(myresult1[0][2])
-                    for j in range (len(myresult2)):
-                        num2 = int(myresult2[j][1][0:2]) * 60 + int(myresult2[j][1][3:5])
-                        if (num2 - num1 <= 30 and num2 - num1 >=15):
-                            output.append([myresult1[i][0],start,changeStation,myresult1[i][1],myresult1[i][2],myresult2[j][0],changeStation,end,myresult2[j][1],myresult2[j][2] ])
+                output = sr.calc(start,end,day,changeStation,trainLine,trainLine,lstANTrainRoute,lstANTrainRoute,lstANDuration,lstANDuration)
                 return output
             
             if (trainLine == "AreaCentral"):
@@ -182,43 +137,44 @@ def searchAllRoute (start, end, day):
                     if len(FCT.getKeyword(start,fastestRoute[i],lstACTrainRoute)) == 0:
                         changeStation = fastestRoute[i-1]
                         break
-                lstStartChangeKeyword = FCT.getKeyword(start, changeStation, lstACTrainRoute)
-                temp = FCT.getRoute(start, changeStation, lstStartChangeKeyword, lstACTrainRoute)
-                lstStartChangeBeginningRoute = temp[0]
-                lstStartChangeRoute = temp[1]
-                temp = FCT.getDuration(lstStartChangeBeginningRoute,lstStartChangeRoute,lstACDuration)
-                lstStartChangeDuration = temp[0]
-                lstStartChangeBeginningDuration = temp[1]
-                myresult1 = FCT.getMyresult(day,lstStartChangeKeyword,trainLine)
-                myresult1 = FCT.updateMyresult(myresult1,lstStartChangeKeyword,lstStartChangeBeginningDuration,lstStartChangeDuration)
-                
-                lstChangeEndKeyword = FCT.getKeyword(changeStation, end, lstACTrainRoute)
-                temp = FCT.getRoute(changeStation, end, lstChangeEndKeyword, lstACTrainRoute)
-                lstChangeEndBeginningRoute = temp[0]
-                lstChangeEndRoute = temp[1]
-                temp = FCT.getDuration(lstChangeEndBeginningRoute,lstChangeEndRoute,lstACDuration)
-                lstChangeEndDuration = temp[0]
-                lstChangeEndBeginningDuration = temp[1]
-                myresult2 = FCT.getMyresult(day,lstChangeEndKeyword,trainLine)
-                myresult2 = FCT.updateMyresult(myresult2,lstChangeEndKeyword,lstChangeEndBeginningDuration,lstChangeEndDuration)
-
-                output = []
-                for i in range (len(myresult1)):
-                    num1 = int(myresult1[i][1][0:2]) * 60 + int(myresult1[i][1][3:5]) + int(myresult1[0][2])
-                    for j in range (len(myresult2)):
-                        num2 = int(myresult2[j][1][0:2]) * 60 + int(myresult2[j][1][3:5])
-                        if (num2 - num1 <= 30 and num2 - num1 >=15):
-                            output.append([myresult1[i][0],start,changeStation,myresult1[i][1],myresult1[i][2],myresult2[j][0],changeStation,end,myresult2[j][1],myresult2[j][2] ])
+                output = sr.calc(start,end,day,changeStation,trainLine,trainLine,lstANTrainRoute,lstANTrainRoute,lstANDuration,lstANDuration)
                 return output
 
     else: #Different line
-        
         lstIntersectingStations = FCT.getIntersectingStation(startLine,endLine)
+        if trainLine == "SN":
+            changeStation = "Cape Town"
+            
+            output = sr.calc(start,end,day,changeStation,"AreaSouth","AreaNorth",lstASTrainRoute,lstANTrainRoute,lstASDuration,lstANDuration)
+            return output
 
-        
+        if trainLine == "NS":
+            changeStation = "Cape Town"
+            output = sr.calc(start,end,day,changeStation,"AreaNorth","AreaSouth",lstANTrainRoute,lstASTrainRoute,lstANDuration,lstASDuration)
+            return output
+            
+        if trainLine == "CS":
+            changeStation = "Cape Town"
+            output = sr.calc(start,end,day,changeStation,"AreaCentral","AreaSouth",lstACTrainRoute,lstASTrainRoute,lstACDuration,lstASDuration)
+            return output
+
+        if trainLine == "SC":
+            changeStation = "Cape Town"
+            output = sr.calc(start,end,day,changeStation,"AreaSouth","AreaCentral",lstASTrainRoute,lstACTrainRoute,lstASDuration,lstACDuration)
+            return output
+
+        if trainLine == "NC":
+            changeStation = "Bellville"
+            output = sr.calc(start,end,day,changeStation,"AreaNorth","AreaCentral",lstANTrainRoute,lstACTrainRoute,lstANDuration,lstACDuration)
+            return output
+
+        if trainLine == "CN":
+            changeStation = "Bellville"
+            output = sr.calc(start,end,day,changeStation,"AreaCentral","AreaNorth",lstACTrainRoute,lstANTrainRoute,lstACDuration,lstANDuration)
+            return output
             
 def main():
-    list = search("Kraaifontein","Strand","Monday") 
+    list = search("Nyanga","Hazendal", "Monday") 
 
     for line in list:
         print(line)
