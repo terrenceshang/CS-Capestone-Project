@@ -174,7 +174,7 @@ def searchAllRoute (start, end, day):
             return output
             
 def main():
-    list = search("Nyanga","Hazendal", "Monday") 
+    list = search("Wellington","False Bay", "Monday") 
 
     for line in list:
         print(line)

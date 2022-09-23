@@ -83,7 +83,7 @@ def getDuration(lstBeginning,lstRoute,lstAreaDuration):
 
 #Reading access and return the all possible train numbers
 def getMyresult(day,tempList,trainLine):
-    conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=' + os.path.dirname(os.path.realpath(__file__))[:-8] + '\\TrainSchedule.accdb;')
+    conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=' + os.path.dirname(os.path.realpath(__file__)) + '\\TrainSchedule.accdb;')
     cursor = conn.cursor()
 
     tempLine = ""
