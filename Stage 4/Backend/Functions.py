@@ -1,6 +1,8 @@
 import os
 import pyodbc
+import sqlite3
 #Finding the stations where student can change trains to get to a different line
+"""
 def getIntersectingStation (start, end):
     lstTempIntersectingStations = [["Ndabeni","CS"],["Pinelands","CS"],["Mutual","CN"],["Ysterplaat","CN"],["Esplanade","CN"],["Bellville","CN"]]
     lstIntersectingStations = []
@@ -8,7 +10,7 @@ def getIntersectingStation (start, end):
         if start in intersectingStations[1] and end in intersectingStations[1]:
             lstIntersectingStations.append(intersectingStations)
     return lstIntersectingStations
-
+"""
 #To see if the stations situates on the same area
 def checkSameArea(start,end):
     trainLine=""
@@ -56,7 +58,8 @@ def getRoute(start,end,tempList,trainRoute):
                 break    
     return [lstBeginning,lstRoute]
 
-#Find the list of the duration
+#Find the list of the duration between the start and the end.
+
 def getDuration(lstBeginning,lstRoute,lstAreaDuration):
     lstDuration= []
     lstDurationBeginning = []
@@ -64,8 +67,8 @@ def getDuration(lstBeginning,lstRoute,lstAreaDuration):
         duration = 0
         for i in range (len(route) - 1):
             for j in range (len(lstAreaDuration)):
-                if lstAreaDuration[j][0] == route[i] and lstAreaDuration[j][1] == route[i+1]:
-                    duration = duration + int(lstAreaDuration[j][2])
+                if lstAreaDuration[j][0] == route[i] and lstAreaDuration[j][1] == route[i+1]: #To check the distance between two nodes
+                    duration = duration + int(lstAreaDuration[j][2]) #adding the distance to the duration if we found node distance
                     break
         lstDuration.append(duration)
     for route in lstBeginning:
@@ -83,7 +86,7 @@ def getDuration(lstBeginning,lstRoute,lstAreaDuration):
 
 #Reading access and return the all possible train numbers
 def getMyresult(day,tempList,trainLine):
-    conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=' + os.path.dirname(os.path.realpath(__file__)) + '\\TrainSchedule.accdb;')
+    conn = sqlite3.connect(os.path.dirname(os.path.realpath(__file__)) + '\\database.db') #Establishing a connection
     cursor = conn.cursor()
 
     tempLine = ""
@@ -91,6 +94,7 @@ def getMyresult(day,tempList,trainLine):
         tempLine = tempLine + "OR Route = '" + line + "' "
     tempLine = tempLine[3:]  
 
+#SQL 
     if day == "MTH":
         sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'MF' OR WorkingTime = 'MTH') AND (" + tempLine + ")"
         cursor.execute(sql)
@@ -115,6 +119,8 @@ def getMyresult(day,tempList,trainLine):
 #Changing the start time from beginning station of the route to the start location
 #Changing the myresult from <Train number><Unique key><Duration> to <Train number><Start time><Duration>
 def updateMyresult(myresult,tempList,lstDuration,lstDurationBeginning):
+    for i in range (len(myresult)):
+        myresult[i] = list(myresult[i])
     for i in range (len(myresult)):
         for j in range (len(tempList)):
             if tempList[j] == myresult[i][2]:

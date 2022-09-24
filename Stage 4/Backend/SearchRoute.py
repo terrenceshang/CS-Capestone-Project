@@ -45,7 +45,6 @@ def searchAllRoute (start, end, day):
 
 #Checking if the trains are in the same area
     trainLine=FCT.checkSameArea(startLine,endLine)
-    
 
 # Find the keyword route that is applicable for same route, i.e.ANCPTCHN1 
     if len(trainLine) == 1:
@@ -59,7 +58,7 @@ def searchAllRoute (start, end, day):
         else:
             trainLine = "AreaCentral"
             tempList = FCT.getKeyword(start,end,lstACTrainRoute)
-
+        
 #Getting the route from start to end
 #Getting the route from Beginning of the route to start
 
@@ -99,12 +98,12 @@ def searchAllRoute (start, end, day):
 
 #Reading access and return the all possible train numbers
             myresult = FCT.getMyresult(day,tempList,trainLine)
+            for i in range (len(myresult)):
+                myresult[i] = list(myresult[i])
 
 #Changing the start time from beginning station of the route to the start location
 #Changing the myresult from <Train number><Unique key><Duration> to <Train number><Start time><Duration>
-
             myresult = FCT.updateMyresult(myresult,tempList,lstDuration,lstDurationBeginning)
-           
             output = []
                 
             for i in range (len(myresult)):
@@ -121,6 +120,7 @@ def searchAllRoute (start, end, day):
                     if len(FCT.getKeyword(start,fastestRoute[i],lstANTrainRoute)) == 0:
                         changeStation = fastestRoute[i-1]
                         break
+                #This is a function used to calculate the trains a person must take when given all the needed information
                 output = sr.calc(start,end,day,changeStation,trainLine,trainLine,lstANTrainRoute,lstANTrainRoute,lstANDuration,lstANDuration)
                 return output
             
@@ -140,8 +140,7 @@ def searchAllRoute (start, end, day):
                 output = sr.calc(start,end,day,changeStation,trainLine,trainLine,lstANTrainRoute,lstANTrainRoute,lstANDuration,lstANDuration)
                 return output
 
-    else: #Different line
-        lstIntersectingStations = FCT.getIntersectingStation(startLine,endLine)
+    else: # 2 locations are situated in different areas
         if trainLine == "SN":
             changeStation = "Cape Town"
             
@@ -174,7 +173,7 @@ def searchAllRoute (start, end, day):
             return output
             
 def main():
-    list = search("Wellington","False Bay", "Monday") 
+    list = search("Thornton","Lakeside", "Sunday") 
 
     for line in list:
         print(line)
