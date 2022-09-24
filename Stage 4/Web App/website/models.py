@@ -38,7 +38,8 @@ class Trip(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     departureStation = db.Column(db.String(150))
     destinationStation = db.Column(db.String(150))
-    date = db.Column(db.DateTime(timezone=True))
+    day = db.Column(db.String(150))
+    time = db.Column(db.String(150))
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
 class User(db.Model, UserMixin):
@@ -49,3 +50,11 @@ class User(db.Model, UserMixin):
     password = db.Column(db.String(150))
     first_name = db.Column(db.String(150))
     trips = db.relationship('Trip')
+
+class Admin(db.Model, UserMixin):
+    #__tablename__ = 'admin'
+
+    id = db.Column(db.Integer, primary_key=True)
+    email = db.Column(db.String(150), unique=True)
+    password = db.Column(db.String(150))
+    first_name = db.Column(db.String(150))

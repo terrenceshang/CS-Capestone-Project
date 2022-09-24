@@ -13,6 +13,11 @@
   </div>
 
   <form method="POST">
+    {% for t in user.trips %}
+    <li class="list-group-item">
+      {{t.departureStation + " to " + t.destinationStation + " on " + t.day + " at " + t.time}}
+    </li>
+    {% endfor %}
     <div class = "form-row">
       <div class="form-group col">
       <input list="stations1" name="departureStation" id="departureStation", placeholder="From">

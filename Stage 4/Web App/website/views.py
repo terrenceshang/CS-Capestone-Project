@@ -1,12 +1,16 @@
 from sre_constants import SUCCESS
+from time import time
 from flask import Blueprint, render_template, request, flash, jsonify, redirect, url_for
-from flask_login import login_required, current_user
-from .models import Station, User
+from flask_login import current_user
+from .models import Station, User, Trip
 from . import db #, stationNames, SearchRoute
 import json
 import pyodbc
 import os
-#from . import sr
+from website.SearchRoute import SearchRoute
+SR = SearchRoute()
+#from website.practice import Practice
+#P = Practice()
 
 views = Blueprint('views', __name__)
 
@@ -20,7 +24,7 @@ trainsToTake = []
 @views.route('/', methods=['GET', 'POST'])
 def home():
     stations = [r.stationName for r in Station.query.order_by(Station.stationName).all()]
-    trainsToTake = []
+    trainsToTake.clear()
     if request.method == 'POST':
         departureStation = str(request.form.get('departureStation'))
         destinationStation = str(request.form.get('destinationStation'))
@@ -37,9 +41,19 @@ def home():
         elif (departureStation == destinationStation):
             flash('You are already at ' + departureStation, category = 'error')
         else:
-            #trainsToTake = sr.search(departureStation, destinationStation, day)
-            for t in trainsToTake:
-                print(t)
+            trains = SR.search(departureStation, destinationStation, day)
+            #trains = P.func2(1,1)
+            for t in trains:
+                s = ""
+                for t2 in t:
+                    s += t2 + "\t"
+                trainsToTake.append(s)
+            #print(P.func2(1,1))
+            if current_user.is_authenticated:
+                new_trip = Trip(destinationStation=destinationStation, departureStation=departureStation,
+                day=day,time=departureTime, user_id=current_user.id)
+                db.session.add(new_trip)
+                db.session.commit()
             return redirect(url_for('views.result'))
 
     return render_template("home.html", user = current_user, stations = stations, days = days)
