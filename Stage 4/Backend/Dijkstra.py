@@ -11,7 +11,7 @@ class Graph(object):
         
     def construct_graph(self, nodes, init_graph):
         '''
-        This method makes sure that the graph is symmetrical. In other words, if there's a path from node A to B with a value V, there needs to be a path from node B to node A with a value V.
+        This method makes sure that the graph is symmetrical. In other words, if theres a path from node A to B with a value V, there needs to be a path from node B to node A with a value V.
         '''
         graph = {}
         for node in nodes:
@@ -118,7 +118,7 @@ def createGraph():
             
     graph = Graph(nodes, init_graph)
     
-    return graph, lstACDuration, lstACRoute, lstANDuration, lstANRoute, lstASDuration, lstASRoute, lstStation, StationsArea
+    return graph, lstACRoute, lstANRoute, lstASRoute, StationsArea
 
 def dijkstra_algorithm(graph, start_node):
     unvisited_nodes = list(graph.get_nodes())
@@ -173,8 +173,8 @@ def print_result(previous_nodes, shortest_path, start_node, target_node):
     # Add the start node manually
     path.append(start_node)
     
-    #print("We found the following best path with a value of {}.".format(shortest_path[target_node]))
-    #print(" -> ".join(reversed(path)))
+    print("We found the following best path with a value of {}.".format(shortest_path[target_node]))
+    print(" -> ".join(reversed(path)))
 
     strPath = ",".join(reversed(path))
     arrPath = strPath.split(",")
@@ -182,62 +182,124 @@ def print_result(previous_nodes, shortest_path, start_node, target_node):
     return arrPath
 
 def findRoute(start_node, end_node):
-    graph, lstACDuration, lstACRoute, lstANDuration, lstANRoute, lstASDuration, lstASRoute, lstStation, StationsArea = createGraph()
+    graph, lstACRoute, lstANRoute, lstASRoute, StationsArea = createGraph()
     previous_nodes, shortest_path = dijkstra_algorithm(graph=graph, start_node = start_node)
     arrPath = print_result(previous_nodes, shortest_path, start_node=start_node, target_node= end_node)
     
     return arrPath
 
+def getDuration(graph, start_node, end_node):
+    return graph.value(start_node, end_node)
+
+def checkRoute(graph, route, path, conTrain):
+    matches = []
+    routeName = ""
+    #print(path)
+    furthest = ""
+    furPath = 0
+    for lineRoute in route:
+        routeName = lineRoute[0:1]
+        duration = 0 
+        prev = ""       
+        pos = len(lineRoute)
+        found = False
+        furCount = 0
+        for linePath in path:                                   
+            bPathFound = False
+            count = 0 
+            furCount += 1                       
+            for i in lineRoute:
+                 
+                count += 1
+                if i == conTrain:
+                    pos = count
+                if found == True and len(prev) > 0:
+                    duration += getDuration(graph, prev, linePath) 
+                if i == linePath:
+                    if len(conTrain) > 1 and linePath == path[0]:                        
+                        if count > pos:
+                            duration += getDuration(graph, conTrain, linePath)
+                        else:
+                            break
+                    bPathFound = True 
+                    found = True
+                    if furPath < furCount:
+                        furthest = linePath  
+                        #print(furthest)  
+                        furPath = furCount     
+                    lineRoute = lineRoute[count:len(lineRoute)]
+                    count = 0          
+                    #print(lineRoute)
+                    prev = linePath
+                    if linePath == path[path.__len__()-1]:
+                        matches.append(routeName)
+                        matches.append(duration)
+                        matches.append(path[0])
+                        matches.append(linePath)
+                    break
+            if bPathFound == False:
+                break
+            
+    if matches.__len__() == 0:
+        #print(furthest)
+        count = 0
+        for i in range(len(path)):
+            if path[i] == furthest:
+                count = i
+                break
+        for repeat in range(2):
+            if repeat == 0:
+                matches.append(checkRoute(graph, route, path[0:count +1], conTrain))
+            else:
+                conTrain = ""
+                matches.append(checkRoute(graph, route, path[count:len(path)], conTrain))
+    return matches
+
 def main():       
     found = False
     while found == False:
-        graph, lstACDuration, lstACRoute, lstANDuration, lstANRoute, lstASDuration, lstASRoute, lstStation, StationsArea = createGraph()
-        previous_nodes, shortest_path = dijkstra_algorithm(graph=graph, start_node="Chris Hani")
-        arrPath = print_result(previous_nodes, shortest_path, start_node="Chris Hani", target_node="Du Toit")
+        graph, lstACRoute, lstANRoute, lstASRoute, StationsArea = createGraph()
+        previous_nodes, shortest_path = dijkstra_algorithm(graph=graph, start_node="Worcester")
+        arrPath = print_result(previous_nodes, shortest_path, start_node="Worcester", target_node="Strand")
         
-        bArea = False
-        for i in arrPath:        
-            if bArea == False:
-                if len(StationsArea[i]) == 1:
-                    area = StationsArea[i]
-                    bArea = True                
+        area = []
+        for i in arrPath:
+            if len(StationsArea[i]) == 1 and StationsArea[i] not in area:                
+                area.append(StationsArea[i])
         
-        route = []
-        if area == "C":
-            route = lstACRoute
-        elif area == "N":
-            route = lstANRoute
-        else:
-            route = lstASRoute
-        
+        lines = []
+        numArea = 0
+        count = -1
+        start = 0
+        for line in arrPath:
+            count += 1
+            if area.__len__() > 1:
+                if StationsArea[line] == area[numArea+1]:
+                    lines.append(arrPath[start:count])
+                    start = count
+                    numArea += 1
+            if numArea == (area.__len__()-1):
+                lines.append(arrPath[start:len(arrPath)])
+                break
+  
         matches = []
-        routeName = ""
-        for lineRoute in route:
-            routeName = lineRoute[0:1]
-            for linePath in arrPath:
-                if StationsArea[linePath] == area:
-                    bPathFound = False
-                    count = 0
-                    
-                    for i in lineRoute:
-                        count += 1
-                        if i == linePath:
-                            bPathFound = True                             
-                            lineRoute = lineRoute[count:len(lineRoute)]
-                            count = 0                            
-                            #print(lineRoute)
-                            if linePath == arrPath[arrPath.__len__()-1]:
-                                matches.append(routeName)
-                            break
-                else:
-                    #print("path found")
-                    matches.append(routeName)
-                    break
-                if bPathFound == False:
-                    break
+        prev = ""
+        for i in range(lines.__len__()):
+            if area[i] == "C":
+                passage = lstACRoute   
+            elif area[i] == "N":
+                passage = lstANRoute
+            else:
+                passage = lstASRoute
+            matches = checkRoute(graph, passage, lines[i], prev)
+            for line in lines[i]:
+                if line == lines[i][len(lines[i])-1]:
+                    prev = line
+            #print(prev)
+            print(matches)
+              
         found = True
         
-        #print(matches)
 
 if __name__ == "__main__":
     main()
