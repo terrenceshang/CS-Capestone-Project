@@ -46,7 +46,7 @@ def home():
             for t in trains:
                 s = ""
                 for t2 in t:
-                    s += t2 + "\t"
+                    s += str(t2) + "\t"
                 trainsToTake.append(s)
             #print(P.func2(1,1))
             if current_user.is_authenticated:
