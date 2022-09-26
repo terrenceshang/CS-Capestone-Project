@@ -56,4 +56,6 @@ def calc(start,end,day,changeStation,trainLine1,trainLine2,lstLine1,lstLine2,lst
             else: 
                     output.append([myresult1[i][0],start,changeStation,myresult1[i][1],myresult1[i][2],myresult2[j][0],changeStation,end,myresult2[j][1],myresult2[j][2]])
 
+    if len(output) == 0:
+        return calc(start,end,day,"Cape Town",trainLine1,trainLine2,lstLine1,lstLine2,lstDuration1,lstDuration2)
     return output
