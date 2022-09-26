@@ -136,3 +136,11 @@ def updateMyresult(myresult,tempList,lstDuration,lstDurationBeginning):
                 myresult[i][1] = hour + ":" + minute
                 break
     return myresult
+
+def erin (output):
+    # add the end time to the list
+    return None
+
+def erin2 (outputAfterErin, wanteddeparttime):
+    # find the closest to the depart time and the shortest duration
+    return None

@@ -12,6 +12,7 @@ import os
 import Functions as FCT
 import Dijkstra as dk
 import ShortestRoute as sr
+import time
 
 def search (start, end, day):
 
@@ -25,7 +26,7 @@ def search (start, end, day):
         return searchAllRoute(start,end,"MTH")
 
 def searchAllRoute (start, end, day):
-
+    
 #Getting all the text files in to their list
     lstANDuration = FCT.fileToLst("Area North Duration.txt")
     lstACDuration = FCT.fileToLst("Area Central Duration.txt")
@@ -111,7 +112,7 @@ def searchAllRoute (start, end, day):
                 output.append([myresult[i][0],start,end,myresult[i][1],myresult[i][2]])
             return output
         
-        else: #Same eline, 2 trains
+        else: #Same line, 2 trains
             fastestRoute = dk.findRoute(start,end)
             changeStation = ""
             
@@ -171,10 +172,11 @@ def searchAllRoute (start, end, day):
             changeStation = "Bellville"
             output = sr.calc(start,end,day,changeStation,"AreaCentral","AreaNorth",lstACTrainRoute,lstANTrainRoute,lstACDuration,lstANDuration)
             return output
-            
+          
 def main():
-    list = search("Thornton","Lakeside", "Sunday") 
-
+    start_time = time.time()
+    list = search("Stellenbosch","Mowbray", "Monday") 
+    print("--- %s seconds ---" % (time.time() - start_time))
     for line in list:
         print(line)
 
