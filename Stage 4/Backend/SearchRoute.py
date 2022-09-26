@@ -175,7 +175,7 @@ def searchAllRoute (start, end, day):
           
 def main():
     start_time = time.time()
-    list = search("Malmesbury","Pinelands", "Saturday") 
+    list = search("Thornton","Lakeside", "Sunday") 
     print("--- %s seconds ---" % (time.time() - start_time))
     for line in list:
         print(line)
