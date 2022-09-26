@@ -175,10 +175,12 @@ def searchAllRoute (start, end, day):
           
 def main():
     start_time = time.time()
-    list = search("Thornton","Lakeside", "Sunday") 
+    list = search("Brackenfell","False Bay", "Monday")    
     print("--- %s seconds ---" % (time.time() - start_time))
-    for line in list:
-        print(line)
+    tme = '14:00'
+    output = FCT.outputPaths(list,tme)
+    for line in output:
+        print(line) 
 
 if __name__ == "__main__":
     main()
