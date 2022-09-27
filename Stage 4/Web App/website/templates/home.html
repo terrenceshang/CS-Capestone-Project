@@ -16,7 +16,12 @@
   <form method="POST">
     <div class = "form-row">
       <div class="form-group col">
-      <input list="stations1" name="departureStation" id="departureStation", placeholder="From" autocomplete="on">
+      <input 
+      list="stations1" 
+      name="departureStation" 
+      id="departureStation" 
+      placeholder="From" 
+      value = "{{ request.form['departureStation'] }}">
       <datalist id="stations1">
         {% for s in stations %}
         <option value = "{{s}}">
@@ -24,7 +29,12 @@
       </datalist>
       </div>
       <div class="form-group col">
-        <input list="stations2" name="destinationStation" id="destinationStation", placeholder="To">
+        <input 
+        list="stations2" 
+        name="destinationStation" 
+        id="destinationStation" 
+        placeholder="To"
+        value = "{{ request.form['destinationStation'] }}">
         <datalist id = "stations2">
           {% for s in stations %}
           <option>{{s}}</option>
@@ -32,7 +42,7 @@
         </datalist>
       </div>
       <div class="form-group col">
-        <input list="days" name="day" id="day", placeholder="Day">
+        <input list="days" name="day" id="day" placeholder="Day" value = "{{ request.form['day'] }}">
         <datalist id = "days">
           {% for day in days %}
           <option>{{day}}</option>
@@ -46,6 +56,7 @@
           class="form-time"
           id="departureTime"
           name="departureTime"
+          value = "{{ request.form['departureTime'] }}"
         />
       </div>
     </div>

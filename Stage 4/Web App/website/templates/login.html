@@ -11,6 +11,7 @@
       name="email"
       aria-describedby="emailHelp"
       placeholder="Enter email"
+      value = "{{ request.form['email'] }}"
     />
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
@@ -22,6 +23,7 @@
       id="password"
       name="password"
       placeholder="Enter password"
+      value = "{{ request.form['firstName'] }}"
     />
   </div>
   <br />

@@ -10,6 +10,7 @@ content %}
       id="email"
       name="email"
       placeholder="Enter email"
+      value = "{{ request.form['email'] }}"
     />
   </div>
   <div class="form-group col-md-6">
@@ -20,6 +21,7 @@ content %}
       id="firstName"
       name="firstName"
       placeholder="Enter first name"
+      value = "{{ request.form['firstName'] }}"
     />
   </div>
   <div class="form-group col-md-6">

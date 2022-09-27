@@ -52,8 +52,8 @@ def home():
             output = f.outputPaths(trains, departureTime)
             shortestRoute.append(output[0])
             if len(output) > 1:
-                for line in output:
-                    otherRoutes.append(line)
+                for i in range(1,len(output)):
+                    otherRoutes.append(output[i])
 
             # only add the trip to the database if the user is authenticated
             if current_user.is_authenticated:
