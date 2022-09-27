@@ -3,7 +3,7 @@ from time import time
 from flask import Blueprint, render_template, request, flash, jsonify, redirect, url_for
 from flask_login import current_user
 from .models import Station, User, Trip
-from . import db #, stationNames, SearchRoute
+from . import db, logged_in
 import json
 import pyodbc
 import os
@@ -30,7 +30,7 @@ def home():
         destinationStation = str(request.form.get('destinationStation'))
         day = str(request.form.get('day'))
         departureTime = request.form.get('departureTime')
-        print(departureTime)
+        
 
         if ((departureStation not in stations) or (destinationStation not in stations)):
             flash('Invalid station!', category='error')
@@ -56,7 +56,7 @@ def home():
                 db.session.commit()
             return redirect(url_for('views.result'))
 
-    return render_template("home.html", user = current_user, stations = stations, days = days)
+    return render_template("home.html", user = current_user, stations = stations, days = days, authenticated = logged_in)
 
 @views.route('/result', methods=['GET', 'POST'])
 def result():

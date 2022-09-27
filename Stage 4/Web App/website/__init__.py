@@ -10,6 +10,7 @@ import sys
 db = SQLAlchemy()
 DB_NAME = "database.db"
 
+logged_in = False
 
 def create_app():
     app = Flask(__name__)

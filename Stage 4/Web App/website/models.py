@@ -10,29 +10,6 @@ class Station(db.Model):
     stationName = db.Column(db.String(150))
     area = db.Column(db.String(150))
 
-class AreaNorth(db.Model):
-    trainNumber = db.Column(db.String(150), primary_key=True)
-    workingTime = db.Column(db.String(150), primary_key=True)
-    departureStation = db.Column(db.String(150))
-    arrivalStation = db.Column(db.String(150))
-    timeOfDeparture = db.Column(db.String(150), primary_key=True)
-    route = db.Column(db.String(150))
-
-class AreaCentral(db.Model):
-    trainNumber = db.Column(db.String(150), primary_key=True)
-    workingTime = db.Column(db.String(150), primary_key=True)
-    departureStation = db.Column(db.String(150))
-    arrivalStation = db.Column(db.String(150))
-    timeOfDeparture = db.Column(db.String(150), primary_key=True)
-    route = db.Column(db.String(150))
-
-class AreaSouth(db.Model):
-    trainNumber = db.Column(db.String(150), primary_key=True)
-    workingTime = db.Column(db.String(150), primary_key=True)
-    departureStation = db.Column(db.String(150))
-    arrivalStation = db.Column(db.String(150))
-    timeOfDeparture = db.Column(db.String(150), primary_key=True)
-    route = db.Column(db.String(150))
 
 class Trip(db.Model):
     id = db.Column(db.Integer, primary_key=True)
