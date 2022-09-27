@@ -11,7 +11,7 @@ def getIntersectingStation (start, end):
             lstIntersectingStations.append(intersectingStations)
     return lstIntersectingStations
 """
-class Functions():    
+class Functions():
     #To see if the stations situates on the same area
     def checkSameArea(self,start,end):
         trainLine=""
@@ -100,11 +100,11 @@ class Functions():
 
         if day == "MF":
             sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'MF') AND (" + tempLine + ")"
-            myresult = db.session.execute(sql).fetchall()    
+            myresult = db.session.execute(sql).fetchall()     
 
         if day == "SAT":
             sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'SAT') AND (" + tempLine + ")"
-            myresult = db.session.execute(sql).fetchall()   
+            myresult = db.session.execute(sql).fetchall()  
 
         if day == "SUN":
             sql = "SELECT TrainNumber, TimeOfDeparture, Route FROM " + trainLine + " WHERE (WorkingTime = 'SUN') AND (" + tempLine + ")"
@@ -132,8 +132,11 @@ class Functions():
                     break
         return myresult
 
+    # order the routes found first by closest starting time then by duration
+    # checks that routes are viable (can reach connecting trains on time, 
+    # previous trains do not leave after following following trains)
     def OrderPaths(self,input, time):
-        if len(input) < 1:
+        if len(input) < 1: #if no available routes, return an empty string
             return [], 0
         numStops = len(input[0]) // 5
         arrDurations = []
@@ -142,82 +145,102 @@ class Functions():
         output = []
         arrCompare = []    
         time = time[0:2] + time[3:5] 
-        for routes in input: 
+
+        for routes in input: #goes through the list of routes received
             count += 1        
             hours = 0   
             minutes = 0
             bTrue = False   
-            for i in range(numStops):
+
+            for i in range(numStops): #goes through all connecting trains
                 arrDurations.append(routes[4])
                 arrTimes.append(routes[3])
+
                 if i != numStops -1:
                     routes = routes[5: len(routes)]
-            if numStops > 0:
+
+            if numStops > 1: # if need to take more than one train
                 for j in range(arrTimes.__len__()-1):            
                     if hours < 0:
                         break
+
                     time1 = arrTimes[j][0:len(arrTimes[j])]
                     time2 = arrTimes[j+1][0:len(arrTimes[j+1])]
                     arrCompare.append(int(time2[0:2]) - int(time1[0:2]))      
+
                     if arrCompare[j] > -1 and ((int(arrCompare[j])*60) - (int(arrTimes[j][3:5])) + (int(arrTimes[j+1][3:5]))) >= int(arrDurations[j]):            
                         hours = hours + arrCompare[j]
-                        #print(str(hours))
                         bTrue = True
                     else:
                         bTrue = False
                         break
+
                 minutes = hours * 60
-                #print(str(minutes))
+
                 if hours > -1 and bTrue == True:      
                     for j in range(arrTimes.__len__()):
                         if j != arrTimes.__len__()-1 and j == 0:
                             minutes = minutes - (int(arrTimes[j][3:5]))
-                            #print(str(minutes))
                         elif j == arrTimes.__len__()-1:
                             minutes += int(arrTimes[j][3:5])
                             minutes += int(arrDurations[j])
+
                     startTime = arrTimes[0][0:2] + arrTimes[0][3:5]
-                    compare = int(time) - int(startTime)                
+                    compare = int(time) - int(startTime) 
+
                     if compare < 0:
                         compare = compare * -1
                         
                     if int(startTime[0:2]) < int(time[0:2]):
-                        compare = compare - 40
+                        compare = compare - 40   
                                         
                     output.append([compare,minutes,count])
             else:
                 minutes = int(arrDurations[0])
                 startTime = arrTimes[0][0:2] + arrTimes[0][3:5]
                 compare = int(time) - int(startTime)
+
                 if compare < 0:
                     compare = compare * -1
+                    
+                if int(startTime[0:2]) < int(time[0:2]):
+                        compare = compare - 40
+
                 output.append([compare,minutes,count])
+
             arrTimes = []
             arrDurations = []
             arrCompare = []
+
         output.sort()
         return(output, numStops)
 
+    # returns array of routes in a readable format
     def outputPaths(self,input, time):
         output, numStops = self.OrderPaths(input, time)
         
         arrOutput = []
+
         if output.__len__() == 0:
             strOutput = "There are no train routes available"
             arrOutput.append(strOutput)
             return arrOutput
+
         for i in output:        
             line = input[i[2]]
             strOutput = ""
+
             for j in range(numStops):
                 if j != 0:
                     strOutput += "THEN \n"
                 strOutput = strOutput + "Depart from " + line[1] + " to " + line[2] + " on train number " + line[0] + " at " + line[3] + "\n"
                 line = line[5:len(line)]
+
             hours = str(i[1]//60) 
             minutes = str(i[1]%60)
             strOutput += "Duration: " + hours + " hour(s) and " + minutes + " minute(s)\n"
             arrOutput.append(strOutput)
+
         return arrOutput
 
 
