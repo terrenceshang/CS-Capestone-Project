@@ -1,3 +1,5 @@
+#Author of Dijkstra algorithm: Alexey Klochay
+
 from array import array
 from audioop import reverse
 import sys
@@ -191,12 +193,15 @@ def findRoute(start_node, end_node):
 def getDuration(graph, start_node, end_node):
     return graph.value(start_node, end_node)
 
+#not used as found a better approach in the searchRoute path
+#checks the route given by dijkstra and ammends the path if it is not found
+#returns 
 def checkRoute(graph, route, path, conTrain):
     matches = []
     routeName = ""
-    #print(path)
     furthest = ""
     furPath = 0
+    
     for lineRoute in route:
         routeName = lineRoute[0:1]
         duration = 0 
@@ -225,11 +230,11 @@ def checkRoute(graph, route, path, conTrain):
                     found = True
                     if furPath < furCount:
                         furthest = linePath  
-                        #print(furthest)  
+                          
                         furPath = furCount     
                     lineRoute = lineRoute[count:len(lineRoute)]
                     count = 0          
-                    #print(lineRoute)
+                    
                     prev = linePath
                     if linePath == path[path.__len__()-1]:
                         matches.append(routeName)
@@ -241,7 +246,6 @@ def checkRoute(graph, route, path, conTrain):
                 break
             
     if matches.__len__() == 0:
-        #print(furthest)
         count = 0
         for i in range(len(path)):
             if path[i] == furthest:
@@ -255,12 +259,14 @@ def checkRoute(graph, route, path, conTrain):
                 matches.append(checkRoute(graph, route, path[count:len(path)], conTrain))
     return matches
 
-def main():       
+#not used as found a better approach in the search route class to find the best route with shortest durations according to the dijkstra route
+#gets the dijkstra route, seperates the route into the different areas and sends the different routes to checkroute
+def getRoute(start_node, end_node):       
     found = False
     while found == False:
         graph, lstACRoute, lstANRoute, lstASRoute, StationsArea = createGraph()
-        previous_nodes, shortest_path = dijkstra_algorithm(graph=graph, start_node="Worcester")
-        arrPath = print_result(previous_nodes, shortest_path, start_node="Worcester", target_node="Strand")
+        previous_nodes, shortest_path = dijkstra_algorithm(graph=graph, start_node=start_node)
+        arrPath = print_result(previous_nodes, shortest_path, start_node=start_node, target_node=end_node)
         
         area = []
         for i in arrPath:
@@ -295,11 +301,7 @@ def main():
             for line in lines[i]:
                 if line == lines[i][len(lines[i])-1]:
                     prev = line
-            #print(prev)
-            print(matches)
+            
+            return(matches)
               
         found = True
-        
-
-if __name__ == "__main__":
-    main()
