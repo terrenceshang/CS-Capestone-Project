@@ -1,11 +1,11 @@
 from sre_constants import SUCCESS
-from time import time
+
 from flask import Blueprint, render_template, request, flash, jsonify, redirect, url_for
 from flask_login import current_user
-from .models import Station, User, Trip
-from . import db, logged_in
+from .models import Station, Trip
+from . import db
 import json
-import pyodbc
+
 import os
 from website.SearchRoute import SearchRoute
 SR = SearchRoute()
@@ -17,15 +17,19 @@ views = Blueprint('views', __name__)
 
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-
-trainsToTake = []
+shortestRoute = []
+otherRoutes = []
 
 # code for home page
 @views.route('/', methods=['GET', 'POST'])
 def home():
     # query stations from database to display them on the html page
     stations = [r.stationName for r in Station.query.order_by(Station.stationName).all()]
-    trainsToTake.clear() # clear any previous trips that may be stored
+
+    # clear any previous trips that may be stored
+    shortestRoute.clear()
+    otherRoutes.clear() 
+
     if request.method == 'POST':
         departureStation = str(request.form.get('departureStation'))
         destinationStation = str(request.form.get('destinationStation'))
@@ -46,8 +50,10 @@ def home():
         else:
             trains = SR.search(departureStation, destinationStation, day)
             output = f.outputPaths(trains, departureTime)
-            for line in output:
-                trainsToTake.append(line)
+            shortestRoute.append(output[0])
+            if len(output) > 1:
+                for line in output:
+                    otherRoutes.append(line)
 
             # only add the trip to the database if the user is authenticated
             if current_user.is_authenticated:
@@ -57,11 +63,9 @@ def home():
                 db.session.commit()
             return redirect(url_for('views.result'))
 
-    return render_template("home.html", user = current_user, stations = stations, days = days, authenticated = logged_in)
+    return render_template("home.html", user = current_user, stations = stations, days = days)
 
 # code for result page
 @views.route('/result', methods=['GET', 'POST'])
 def result():
-    if request.method == 'POST':
-        return redirect(url_for('views.home'))
-    return render_template("result.html", user = current_user, trains = trainsToTake)
+    return render_template("result.html", user = current_user, shortest = shortestRoute, trains = otherRoutes)

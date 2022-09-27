@@ -1,5 +1,6 @@
-{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+{% extends "base.html" %} {% block title %}Cape Town Train Express{% endblock %} {% block content
 %}
+
 <h3 align="center">Where would you like to go?</h3>
 <div class="form-row">
     <div class="form-group col-md-2"><p><a href="../static/Area North.pdf" target="_blank">Area North</a><br>
@@ -39,7 +40,7 @@
         </datalist>
       </div>
       <div class="form-group col">
-        <label for="departureTime">Time</label>
+        <label for="departureTime">Departure Time</label>
         <input
           type="time"
           class="form-time"
@@ -54,7 +55,7 @@
   </div>
 </form>
 {% if user.is_authenticated %}
-<h4>Recent Trips:</h4>
+<h4>Recent Search:</h4>
 <ul class="list-group list-group-flush" id="trips">
   {% for t in user.trips %}
   <li class="list-group-item">

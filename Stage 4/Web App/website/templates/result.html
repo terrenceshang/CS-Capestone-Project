@@ -1,13 +1,17 @@
-{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+{% extends "base.html" %} {% block title %}Result{% endblock %} {% block content
 %}
 <form method="POST">
   <br />
-  <button type="submit" class="btn btn-primary" align="left">Back</button>
-  <h1 align="center">Take the following trains:</h1>
-  {% for e in trains %}
+
+  <h2 align="center">The shortest route is:</h2>
+  <li class="list-group-item">{{ shortest[0] }}</li>
+  <br />
+  <h2 align="center">The other alternative routes for this day are:</h2>
+  {% for train in trains %}
     <li class="list-group-item">
-      {{e}}
+      {{train}}
     </li>
   {% endfor %}
+  
 </form>
 {% endblock %}
