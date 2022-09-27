@@ -32,9 +32,9 @@ def home():
         
 
         if ((departureStation not in stations) or (destinationStation not in stations)):
-            flash('Invalid station!', category='error')
+            flash('Please enter a valid station!', category='error')
         elif (day not in days):
-            flash('Invalid day!', category='error')
+            flash('Please choose a valid day!', category='error')
         elif (departureTime == ""):
             flash('Time not selected!', category='error')
         elif (departureStation == destinationStation):
