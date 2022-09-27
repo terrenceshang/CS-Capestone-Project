@@ -12,7 +12,12 @@ class ShortestRoute():
             lstStartChangeKeyword = FCT.getKeyword(start, "Bellville", lstLine1)
             lstChangeEndKeyword = FCT.getKeyword("Bellville", end, lstLine2)
             if len(lstStartChangeKeyword) == 0 or len(lstChangeEndKeyword) == 0: #Checking if the route is feasible
-                return self.calc(start,end,day,"Mutual",trainLine1,trainLine2,lstLine1,lstLine2,lstDuration1,lstDuration2)
+                lstStartChangeKeyword = FCT.getKeyword(start, "Mutual", lstLine1)
+                lstChangeEndKeyword = FCT.getKeyword("Mutual", end, lstLine2)
+                if len(lstStartChangeKeyword) == 0 or len(lstChangeEndKeyword) == 0:
+                    return self.calc(start,end,day,"Cape Town",trainLine1,trainLine2,lstLine1,lstLine2,lstDuration1,lstDuration2)
+                else: 
+                    return self.calc(start,end,day,"Mutual",trainLine1,trainLine2,lstLine1,lstLine2,lstDuration1,lstDuration2)
             else:
                 return self.calc(start,end,day,"Bellville",trainLine1,trainLine2,lstLine1,lstLine2,lstDuration1,lstDuration2)
         
