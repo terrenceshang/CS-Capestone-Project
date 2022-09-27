@@ -12,6 +12,7 @@ DB_NAME = "database.db"
 
 logged_in = False
 
+# creates app using Flask module and connects to database
 def create_app():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = 'a'
@@ -27,7 +28,7 @@ def create_app():
     app.register_blueprint(auth, url_prefix='/')
     
 
-    from .models import User, Station
+    from .models import User
     
     create_database(app)
 
@@ -41,7 +42,7 @@ def create_app():
 
     return app
 
-
+# creates the database if it does not already exist
 def create_database(app):
     if not path.exists('website/' + DB_NAME):
         db.create_all(app=app)

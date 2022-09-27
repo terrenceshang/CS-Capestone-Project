@@ -11,13 +11,14 @@ import math
 import os
 from website.Functions import Functions
 FCT = Functions()
-from website.Dijkstra import Dijkstra, Graph
+from website.Dijkstra import Dijkstra 
 dk = Dijkstra()
 from website.ShortestRoute import ShortestRoute
 sr = ShortestRoute()
+import time
 
 class SearchRoute():
-    def search (self, start, end, day):
+    def search (self,start, end, day):
 
         if day == "Friday":
             return self.searchAllRoute(start,end,"MF")
@@ -28,8 +29,8 @@ class SearchRoute():
         else:
             return self.searchAllRoute(start,end,"MTH")
 
-    def searchAllRoute (self, start, end, day):
-
+    def searchAllRoute (self,start, end, day):
+        
     #Getting all the text files in to their list
         lstANDuration = FCT.fileToLst("Area North Duration.txt")
         lstACDuration = FCT.fileToLst("Area Central Duration.txt")
@@ -115,7 +116,7 @@ class SearchRoute():
                     output.append([myresult[i][0],start,end,myresult[i][1],myresult[i][2]])
                 return output
             
-            else: #Same eline, 2 trains
+            else: #Same line, 2 trains
                 fastestRoute = dk.findRoute(start,end)
                 changeStation = ""
                 
@@ -175,12 +176,15 @@ class SearchRoute():
                 changeStation = "Bellville"
                 output = sr.calc(start,end,day,changeStation,"AreaCentral","AreaNorth",lstACTrainRoute,lstANTrainRoute,lstACDuration,lstANDuration)
                 return output
-            
+          
 # def main():
-#     list = search("Thornton","Lakeside", "Sunday") 
-
-#     for line in list:
-#         print(line)
+#     start_time = time.time()
+#     list = search("Brackenfell","False Bay", "Monday")    
+#     print("--- %s seconds ---" % (time.time() - start_time))
+#     tme = '14:00'
+#     output = FCT.outputPaths(list,tme)
+#     for line in output:
+#         print(line) 
 
 # if __name__ == "__main__":
 #     main()

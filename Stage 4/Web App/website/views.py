@@ -9,15 +9,14 @@ import pyodbc
 import os
 from website.SearchRoute import SearchRoute
 SR = SearchRoute()
-#from website.practice import Practice
-#P = Practice()
+from website.Functions import Functions
+f = Functions()
+
 
 views = Blueprint('views', __name__)
 
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-#data = stationNames.read()
-#stations = data.split("\n")
 
 trainsToTake = []
 
@@ -42,13 +41,10 @@ def home():
             flash('You are already at ' + departureStation, category = 'error')
         else:
             trains = SR.search(departureStation, destinationStation, day)
-            #trains = P.func2(1,1)
-            for t in trains:
-                s = ""
-                for t2 in t:
-                    s += str(t2) + "\t"
-                trainsToTake.append(s)
-            #print(P.func2(1,1))
+            output = f.outputPaths(trains, departureTime)
+            for line in output:
+                trainsToTake.append(line)
+
             if current_user.is_authenticated:
                 new_trip = Trip(destinationStation=destinationStation, departureStation=departureStation,
                 day=day,time=departureTime, user_id=current_user.id)
