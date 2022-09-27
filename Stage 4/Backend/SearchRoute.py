@@ -175,7 +175,7 @@ def searchAllRoute (start, end, day):
           
 def main():
     start_time = time.time()
-    list = search("Woodstock","Claremont", "Monday")    
+    list = search("Avondale","Chris Hani", "Monday")    
     print("--- %s seconds ---" % (time.time() - start_time))
     tme = '14:00'
     output = FCT.outputPaths(list,tme)
