@@ -169,11 +169,13 @@ def OrderPaths(input, time):
             for j in range(arrTimes.__len__()-1):            
                 if hours < 0:
                     break
-
+                
+                #compares the times of the connecting trains to ensure that the first train leaves before the next
                 time1 = arrTimes[j][0:len(arrTimes[j])]
                 time2 = arrTimes[j+1][0:len(arrTimes[j+1])]
                 arrCompare.append(int(time2[0:2]) - int(time1[0:2]))      
 
+                #checks that previous train arrives before following train by comparing the times in hours and minutes as well as the previous train's duration
                 if arrCompare[j] > -1 and ((int(arrCompare[j])*60) - (int(arrTimes[j][3:5])) + (int(arrTimes[j+1][3:5]))) >= int(arrDurations[j]):            
                     hours = hours + arrCompare[j]
                     bTrue = True
@@ -183,6 +185,7 @@ def OrderPaths(input, time):
 
             minutes = hours * 60
 
+            #calculates the total duration of the trip in minutes
             if hours > -1 and bTrue == True:      
                 for j in range(arrTimes.__len__()):
                     if j != arrTimes.__len__()-1 and j == 0:
@@ -191,17 +194,19 @@ def OrderPaths(input, time):
                         minutes += int(arrTimes[j][3:5])
                         minutes += int(arrDurations[j])
 
+                #compares the requested start time with the time the first train in the route leaves
                 startTime = arrTimes[0][0:2] + arrTimes[0][3:5]
                 compare = int(time) - int(startTime) 
 
                 if compare < 0:
                     compare = compare * -1
-                    
+                
+                #subtracts 40 from times earlier than the start time as there are 60 minutes in an hour, not 100
                 if int(startTime[0:2]) < int(time[0:2]):
                     compare = compare - 40   
                                      
                 output.append([compare,minutes,count])
-        else:
+        else: #if only take one train
             minutes = int(arrDurations[0])
             startTime = arrTimes[0][0:2] + arrTimes[0][3:5]
             compare = int(time) - int(startTime)
@@ -226,12 +231,13 @@ def outputPaths(input, time):
     output, numStops = OrderPaths(input, time)
     
     arrOutput = []
-
+    #checks if there are any routes available, if not, a suitable message is returned
     if output.__len__() == 0:
         strOutput = "There are no train routes available"
         arrOutput.append(strOutput)
         return arrOutput
 
+    #represents the information in the new ordered list of trains to a suitable output that is returned as an array
     for i in output:        
         line = input[i[2]]
         strOutput = ""
